@@ -1,0 +1,59 @@
+name: Bot
+
+# Runs one trading cycle per invocation. Manual by default — uncomment the schedule to
+# let GitHub run the bot every 15 minutes (free on public repos).
+#
+# Secrets (Settings → Secrets and variables → Actions):
+#   KALSHI_API_KEY_ID, KALSHI_PRIVATE_KEY (the full PEM text)  — demo/live only
+#   TOMORROW_API_KEY                                          — optional
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "paper (simulated), demo (Kalshi demo exchange) or live (real money)"
+        type: choice
+        options: [paper, demo, live]
+        default: paper
+  # schedule:
+  #   - cron: "*/15 * * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wxbot
+  cancel-in-progress: false
+
+jobs:
+  cycle:
+    runs-on: ubuntu-latest
+    env:
+      WXBOT_MODE: ${{ github.event.inputs.mode || 'paper' }}
+      WXBOT_CONTACT: "github.com/${{ github.repository }}"
+      KALSHI_API_KEY_ID: ${{ secrets.KALSHI_API_KEY_ID }}
+      KALSHI_PRIVATE_KEY: ${{ secrets.KALSHI_PRIVATE_KEY }}
+      TOMORROW_API_KEY: ${{ secrets.TOMORROW_API_KEY }}
+      WXBOT_CONFIRM_LIVE: ${{ vars.WXBOT_CONFIRM_LIVE }}
+      FORCE_COLOR: "1"
+      COLUMNS: "140"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -e .
+      - name: Restore bot state (paper ledger + journal)
+        uses: actions/cache/restore@v4
+        with:
+          path: data
+          key: wxbot-state-${{ env.WXBOT_MODE }}-${{ github.run_id }}
+          restore-keys: wxbot-state-${{ env.WXBOT_MODE }}-
+      - name: Trade one cycle
+        run: wxbot run --once
+      - name: Status
+        run: wxbot status
+      - name: Save bot state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data
+          key: wxbot-state-${{ env.WXBOT_MODE }}-${{ github.run_id }}

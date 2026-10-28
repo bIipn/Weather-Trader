@@ -1,0 +1,2704 @@
+{
+"results": [
+{
+"station": "KNYC",
+"valid": "2026-01-01",
+"high": 36,
+"low": 22,
+"high_time": "555 AM",
+"low_time": "1012 PM",
+"product": "202601021606-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-02",
+"high": 30,
+"low": 20,
+"high_time": "422 PM",
+"low_time": "318 AM",
+"product": "202601030619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-03",
+"high": 30,
+"low": 23,
+"high_time": "939 PM",
+"low_time": "834 AM",
+"product": "202601040647-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-04",
+"high": 35,
+"low": 26,
+"high_time": "131 PM",
+"low_time": "903 AM",
+"product": "202601050628-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-05",
+"high": 39,
+"low": 29,
+"high_time": "1154 PM",
+"low_time": "727 AM",
+"product": "202601060635-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-06",
+"high": 42,
+"low": 35,
+"high_time": "211 PM",
+"low_time": "512 AM",
+"product": "202601070633-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-07",
+"high": 49,
+"low": 37,
+"high_time": "254 PM",
+"low_time": "627 AM",
+"product": "202601080624-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-08",
+"high": 50,
+"low": 42,
+"high_time": "327 PM",
+"low_time": "731 AM",
+"product": "202601090618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-09",
+"high": 54,
+"low": 39,
+"high_time": "944 PM",
+"low_time": "623 AM",
+"product": "202601100655-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-10",
+"high": 52,
+"low": 39,
+"high_time": "130 AM",
+"low_time": "642 PM",
+"product": "202601110714-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-11",
+"high": 47,
+"low": 34,
+"high_time": "200 PM",
+"low_time": "1159 PM",
+"product": "202601120642-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-12",
+"high": 41,
+"low": 31,
+"high_time": "229 PM",
+"low_time": "736 AM",
+"product": "202601130629-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-13",
+"high": 48,
+"low": 35,
+"high_time": "225 PM",
+"low_time": "615 AM",
+"product": "202601140622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-14",
+"high": 52,
+"low": 45,
+"high_time": "241 PM",
+"low_time": "837 PM",
+"product": "202601150622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-15",
+"high": 47,
+"low": 24,
+"high_time": "120 AM",
+"low_time": "1159 PM",
+"product": "202601160618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-16",
+"high": 34,
+"low": 22,
+"high_time": "1159 PM",
+"low_time": "819 AM",
+"product": "202601170620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-17",
+"high": 39,
+"low": 31,
+"high_time": "959 AM",
+"low_time": "1054 PM",
+"product": "202601180652-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-18",
+"high": 36,
+"low": 30,
+"high_time": "619 AM",
+"low_time": "1159 PM",
+"product": "202601190618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-19",
+"high": 32,
+"low": 22,
+"high_time": "131 PM",
+"low_time": "906 AM",
+"product": "202601200619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-20",
+"high": 26,
+"low": 16,
+"high_time": "1205 AM",
+"low_time": "955 AM",
+"product": "202601210622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-21",
+"high": 40,
+"low": 17,
+"high_time": "1159 PM",
+"low_time": "653 AM",
+"product": "202601220617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-22",
+"high": 47,
+"low": 37,
+"high_time": "300 PM",
+"low_time": "733 AM",
+"product": "202601230618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-23",
+"high": 38,
+"low": 14,
+"high_time": "1229 AM",
+"low_time": "1159 PM",
+"product": "202601240718-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-24",
+"high": 17,
+"low": 9,
+"high_time": "729 PM",
+"low_time": "915 AM",
+"product": "202601250616-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-25",
+"high": 22,
+"low": 10,
+"high_time": "1136 PM",
+"low_time": "807 AM",
+"product": "202601260646-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-26",
+"high": 27,
+"low": 17,
+"high_time": "316 PM",
+"low_time": "1159 PM",
+"product": "202601270627-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-27",
+"high": 22,
+"low": 15,
+"high_time": "306 PM",
+"low_time": "812 AM",
+"product": "202601280621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-28",
+"high": 23,
+"low": 14,
+"high_time": "408 PM",
+"low_time": "1159 PM",
+"product": "202601290623-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-29",
+"high": 23,
+"low": 11,
+"high_time": "515 PM",
+"low_time": "706 AM",
+"product": "202601300619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-30",
+"high": 18,
+"low": 9,
+"high_time": "423 PM",
+"low_time": "852 AM",
+"product": "202601310621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-01-31",
+"high": 24,
+"low": 10,
+"high_time": "254 PM",
+"low_time": "653 AM",
+"product": "202602010617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-01",
+"high": 24,
+"low": 10,
+"high_time": "401 PM",
+"low_time": "849 AM",
+"product": "202602020625-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-02",
+"high": 35,
+"low": 14,
+"high_time": "410 PM",
+"low_time": "159 AM",
+"product": "202602030620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-03",
+"high": 33,
+"low": 23,
+"high_time": "743 PM",
+"low_time": "732 AM",
+"product": "202602040629-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-04",
+"high": 33,
+"low": 26,
+"high_time": "419 PM",
+"low_time": "1159 PM",
+"product": "202602050622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-05",
+"high": 32,
+"low": 20,
+"high_time": "402 PM",
+"low_time": "811 AM",
+"product": "202602060632-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-06",
+"high": 33,
+"low": 23,
+"high_time": "330 PM",
+"low_time": "648 AM",
+"product": "202602070624-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-07",
+"high": 27,
+"low": 6,
+"high_time": "519 AM",
+"low_time": "1159 PM",
+"product": "202602080626-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-08",
+"high": 18,
+"low": 3,
+"high_time": "423 PM",
+"low_time": "710 AM",
+"product": "202602090618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-09",
+"high": 31,
+"low": 10,
+"high_time": "426 PM",
+"low_time": "622 AM",
+"product": "202602100623-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-10",
+"high": 37,
+"low": 24,
+"high_time": "1142 PM",
+"low_time": "521 AM",
+"product": "202602110620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-11",
+"high": 41,
+"low": 33,
+"high_time": "1141 AM",
+"low_time": "433 AM",
+"product": "202602120618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-12",
+"high": 36,
+"low": 27,
+"high_time": "353 PM",
+"low_time": "1159 PM",
+"product": "202602130618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-13",
+"high": 38,
+"low": 22,
+"high_time": "402 PM",
+"low_time": "714 AM",
+"product": "202602140620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-14",
+"high": 46,
+"low": 29,
+"high_time": "459 PM",
+"low_time": "448 AM",
+"product": "202602150618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-15",
+"high": 40,
+"low": 32,
+"high_time": "1209 PM",
+"low_time": "1159 PM",
+"product": "202602160622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-16",
+"high": 39,
+"low": 29,
+"high_time": "510 PM",
+"low_time": "609 AM",
+"product": "202602170640-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-17",
+"high": 47,
+"low": 35,
+"high_time": "447 PM",
+"low_time": "147 AM",
+"product": "202602180625-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-18",
+"high": 41,
+"low": 37,
+"high_time": "121 PM",
+"low_time": "1157 PM",
+"product": "202602190619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-19",
+"high": 42,
+"low": 36,
+"high_time": "1232 PM",
+"low_time": "1159 PM",
+"product": "202602200620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-20",
+"high": 37,
+"low": 34,
+"high_time": "942 PM",
+"low_time": "607 PM",
+"product": "202602210700-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-21",
+"high": 46,
+"low": 36,
+"high_time": "448 PM",
+"low_time": "506 AM",
+"product": "202602220626-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-22",
+"high": 39,
+"low": 30,
+"high_time": "1206 AM",
+"low_time": "1159 PM",
+"product": "202602230634-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-23",
+"high": 35,
+"low": 28,
+"high_time": "655 PM",
+"low_time": "743 AM",
+"product": "202602240651-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-24",
+"high": 31,
+"low": 23,
+"high_time": "417 PM",
+"low_time": "828 AM",
+"product": "202602250620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-25",
+"high": 44,
+"low": 26,
+"high_time": "1130 PM",
+"low_time": "1208 AM",
+"product": "202602260630-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-26",
+"high": 49,
+"low": 35,
+"high_time": "221 PM",
+"low_time": "1159 PM",
+"product": "202602270620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-27",
+"high": 44,
+"low": 29,
+"high_time": "249 PM",
+"low_time": "527 AM",
+"product": "202602280617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-02-28",
+"high": 54,
+"low": 33,
+"high_time": "403 PM",
+"low_time": "716 AM",
+"product": "202603010616-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-01",
+"high": 43,
+"low": 30,
+"high_time": "1253 AM",
+"low_time": "1159 PM",
+"product": "202603020617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-02",
+"high": 33,
+"low": 21,
+"high_time": "435 PM",
+"low_time": "710 AM",
+"product": "202603030619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-03",
+"high": 36,
+"low": 29,
+"high_time": "1159 PM",
+"low_time": "1222 AM",
+"product": "202603040620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-04",
+"high": 49,
+"low": 35,
+"high_time": "409 PM",
+"low_time": "1211 AM",
+"product": "202603051443-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-05",
+"high": 46,
+"low": 37,
+"high_time": "204 AM",
+"low_time": "1159 PM",
+"product": "202603060620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-06",
+"high": 41,
+"low": 37,
+"high_time": "248 PM",
+"low_time": "1159 PM",
+"product": "202603070628-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-07",
+"high": 52,
+"low": 36,
+"high_time": "1155 PM",
+"low_time": "421 AM",
+"product": "202603080623-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-08",
+"high": 69,
+"low": 50,
+"high_time": "218 PM",
+"low_time": "346 AM",
+"product": "202603090652-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-09",
+"high": 73,
+"low": 51,
+"high_time": "226 PM",
+"low_time": "436 AM",
+"product": "202603100622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-10",
+"high": 80,
+"low": 51,
+"high_time": "221 PM",
+"low_time": "619 AM",
+"product": "202603110636-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-11",
+"high": 72,
+"low": 53,
+"high_time": "1204 AM",
+"low_time": "1022 PM",
+"product": "202603120639-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-12",
+"high": 63,
+"low": 34,
+"high_time": "632 AM",
+"low_time": "523 PM",
+"product": "202603130631-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-13",
+"high": 42,
+"low": 32,
+"high_time": "108 PM",
+"low_time": "658 AM",
+"product": "202603140617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-14",
+"high": 51,
+"low": 38,
+"high_time": "336 PM",
+"low_time": "1159 PM",
+"product": "202603150620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-15",
+"high": 48,
+"low": 35,
+"high_time": "1159 PM",
+"low_time": "641 AM",
+"product": "202603160617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-16",
+"high": 57,
+"low": 48,
+"high_time": "120 PM",
+"low_time": "1203 AM",
+"product": "202603170622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-17",
+"high": 48,
+"low": 29,
+"high_time": "1207 AM",
+"low_time": "1159 PM",
+"product": "202603180616-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-18",
+"high": 37,
+"low": 25,
+"high_time": "405 PM",
+"low_time": "625 AM",
+"product": "202603190625-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-19",
+"high": 44,
+"low": 32,
+"high_time": "443 PM",
+"low_time": "1249 AM",
+"product": "202603200631-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-20",
+"high": 57,
+"low": 39,
+"high_time": "254 PM",
+"low_time": "635 AM",
+"product": "202603210620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-21",
+"high": 59,
+"low": 46,
+"high_time": "411 PM",
+"low_time": "1159 PM",
+"product": "202603220619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-22",
+"high": 63,
+"low": 44,
+"high_time": "316 PM",
+"low_time": "213 AM",
+"product": "202603230625-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-23",
+"high": 50,
+"low": 34,
+"high_time": "142 AM",
+"low_time": "1159 PM",
+"product": "202603240618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-24",
+"high": 48,
+"low": 32,
+"high_time": "440 PM",
+"low_time": "529 AM",
+"product": "202603250618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-25",
+"high": 54,
+"low": 38,
+"high_time": "109 PM",
+"low_time": "336 AM",
+"product": "202603260637-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-26",
+"high": 76,
+"low": 45,
+"high_time": "319 PM",
+"low_time": "1207 AM",
+"product": "202603270706-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-27",
+"high": 65,
+"low": 41,
+"high_time": "1249 AM",
+"low_time": "1159 PM",
+"product": "202603280617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-28",
+"high": 44,
+"low": 31,
+"high_time": "316 PM",
+"low_time": "756 AM",
+"product": "202603290620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-29",
+"high": 54,
+"low": 34,
+"high_time": "256 PM",
+"low_time": "515 AM",
+"product": "202603300619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-30",
+"high": 73,
+"low": 47,
+"high_time": "151 PM",
+"low_time": "340 AM",
+"product": "202603310622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-03-31",
+"high": 81,
+"low": 60,
+"high_time": "318 PM",
+"low_time": "242 AM",
+"product": "202604010621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-01",
+"high": 80,
+"low": 51,
+"high_time": "150 PM",
+"low_time": "1159 PM",
+"product": "202604020619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-02",
+"high": 51,
+"low": 41,
+"high_time": "1216 AM",
+"low_time": "1159 PM",
+"product": "202604030618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-03",
+"high": 66,
+"low": 41,
+"high_time": "544 PM",
+"low_time": "627 AM",
+"product": "202604040619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-04",
+"high": 73,
+"low": 42,
+"high_time": "130 PM",
+"low_time": "1159 PM",
+"product": "202604050639-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-05",
+"high": 57,
+"low": 42,
+"high_time": "214 PM",
+"low_time": "251 AM",
+"product": "202604060626-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-06",
+"high": 56,
+"low": 41,
+"high_time": "403 PM",
+"low_time": "719 AM",
+"product": "202604070622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-07",
+"high": 56,
+"low": 32,
+"high_time": "1140 AM",
+"low_time": "1158 PM",
+"product": "202604080621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-08",
+"high": 51,
+"low": 30,
+"high_time": "304 PM",
+"low_time": "545 AM",
+"product": "202604090652-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-09",
+"high": 51,
+"low": 35,
+"high_time": "243 PM",
+"low_time": "539 AM",
+"product": "202604100637-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-10",
+"high": 63,
+"low": 40,
+"high_time": "153 PM",
+"low_time": "532 AM",
+"product": "202604110620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-11",
+"high": 63,
+"low": 49,
+"high_time": "410 PM",
+"low_time": "1159 PM",
+"product": "202604120631-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-12",
+"high": 55,
+"low": 43,
+"high_time": "118 PM",
+"low_time": "557 AM",
+"product": "202604130659-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-13",
+"high": 79,
+"low": 49,
+"high_time": "536 PM",
+"low_time": "100 AM",
+"product": "202604140722-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-14",
+"high": 87,
+"low": 64,
+"high_time": "210 PM",
+"low_time": "518 AM",
+"product": "202604150644-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-15",
+"high": 90,
+"low": 67,
+"high_time": "214 PM",
+"low_time": "430 AM",
+"product": "202604160619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-16",
+"high": 89,
+"low": 71,
+"high_time": "200 PM",
+"low_time": "415 AM",
+"product": "202604170619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-17",
+"high": 81,
+"low": 59,
+"high_time": "1221 PM",
+"low_time": "1159 PM",
+"product": "202604180617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-18",
+"high": 66,
+"low": 49,
+"high_time": "214 PM",
+"low_time": "1159 PM",
+"product": "202604190628-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-19",
+"high": 53,
+"low": 41,
+"high_time": "1006 AM",
+"low_time": "1157 PM",
+"product": "202604200619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-20",
+"high": 51,
+"low": 39,
+"high_time": "216 PM",
+"low_time": "1159 PM",
+"product": "202604210620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-21",
+"high": 54,
+"low": 34,
+"high_time": "313 PM",
+"low_time": "545 AM",
+"product": "202604220619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-22",
+"high": 56,
+"low": 44,
+"high_time": "1226 PM",
+"low_time": "542 AM",
+"product": "202604230624-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-23",
+"high": 73,
+"low": 45,
+"high_time": "257 PM",
+"low_time": "535 AM",
+"product": "202604240617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-24",
+"high": 68,
+"low": 50,
+"high_time": "223 PM",
+"low_time": "1159 PM",
+"product": "202604250618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-25",
+"high": 50,
+"low": 41,
+"high_time": "134 AM",
+"low_time": "852 PM",
+"product": "202604260619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-26",
+"high": 57,
+"low": 42,
+"high_time": "438 PM",
+"low_time": "649 AM",
+"product": "202604270619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-27",
+"high": 68,
+"low": 45,
+"high_time": "247 PM",
+"low_time": "534 AM",
+"product": "202604280620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-28",
+"high": 65,
+"low": 49,
+"high_time": "1137 AM",
+"low_time": "538 AM",
+"product": "202604290628-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-29",
+"high": 62,
+"low": 48,
+"high_time": "1043 AM",
+"low_time": "1159 PM",
+"product": "202604300646-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-04-30",
+"high": 60,
+"low": 47,
+"high_time": "558 PM",
+"low_time": "215 AM",
+"product": "202605010632-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-01",
+"high": 64,
+"low": 46,
+"high_time": "312 PM",
+"low_time": "604 AM",
+"product": "202605020640-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-02",
+"high": 61,
+"low": 49,
+"high_time": "403 PM",
+"low_time": "607 AM",
+"product": "202605030632-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-03",
+"high": 59,
+"low": 45,
+"high_time": "646 PM",
+"low_time": "719 AM",
+"product": "202605040648-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-04",
+"high": 72,
+"low": 50,
+"high_time": "357 PM",
+"low_time": "539 AM",
+"product": "202605050619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-05",
+"high": 81,
+"low": 59,
+"high_time": "448 PM",
+"low_time": "510 AM",
+"product": "202605060622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-06",
+"high": 71,
+"low": 55,
+"high_time": "1012 AM",
+"low_time": "1159 PM",
+"product": "202605070616-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-07",
+"high": 64,
+"low": 49,
+"high_time": "346 PM",
+"low_time": "625 AM",
+"product": "202605080619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-08",
+"high": 63,
+"low": 46,
+"high_time": "224 PM",
+"low_time": "506 AM",
+"product": "202605090619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-09",
+"high": 65,
+"low": 52,
+"high_time": "1208 PM",
+"low_time": "1150 PM",
+"product": "202605100635-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-10",
+"high": 73,
+"low": 52,
+"high_time": "312 PM",
+"low_time": "603 AM",
+"product": "202605110621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-11",
+"high": 61,
+"low": 53,
+"high_time": "457 PM",
+"low_time": "1159 PM",
+"product": "202605120617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-12",
+"high": 66,
+"low": 46,
+"high_time": "320 PM",
+"low_time": "550 AM",
+"product": "202605130618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-13",
+"high": 72,
+"low": 54,
+"high_time": "1254 PM",
+"low_time": "153 AM",
+"product": "202605140618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-14",
+"high": 66,
+"low": 53,
+"high_time": "313 PM",
+"low_time": "1159 PM",
+"product": "202605150620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-15",
+"high": 66,
+"low": 50,
+"high_time": "456 PM",
+"low_time": "247 AM",
+"product": "202605160616-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-16",
+"high": 80,
+"low": 55,
+"high_time": "509 PM",
+"low_time": "454 AM",
+"product": "202605170618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-17",
+"high": 87,
+"low": 66,
+"high_time": "143 PM",
+"low_time": "538 AM",
+"product": "202605180645-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-18",
+"high": 88,
+"low": 71,
+"high_time": "1155 AM",
+"low_time": "544 AM",
+"product": "202605190619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-19",
+"high": 93,
+"low": 73,
+"high_time": "202 PM",
+"low_time": "529 AM",
+"product": "202605200617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-20",
+"high": 92,
+"low": 66,
+"high_time": "123 PM",
+"low_time": "1159 PM",
+"product": "202605210616-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-21",
+"high": 66,
+"low": 55,
+"high_time": "109 AM",
+"low_time": "1055 AM",
+"product": "202605220621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-22",
+"high": 68,
+"low": 56,
+"high_time": "234 PM",
+"low_time": "745 AM",
+"product": "202605230625-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-23",
+"high": 57,
+"low": 49,
+"high_time": "1049 AM",
+"low_time": "737 PM",
+"product": "202605240621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-24",
+"high": 56,
+"low": 50,
+"high_time": "436 PM",
+"low_time": "329 AM",
+"product": "202605250625-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-25",
+"high": 73,
+"low": 55,
+"high_time": "529 PM",
+"low_time": "410 AM",
+"product": "202605260633-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-26",
+"high": 79,
+"low": 59,
+"high_time": "252 PM",
+"low_time": "507 AM",
+"product": "202605270622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-27",
+"high": 81,
+"low": 68,
+"high_time": "517 PM",
+"low_time": "515 AM",
+"product": "202605280617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-28",
+"high": 75,
+"low": 61,
+"high_time": "1217 PM",
+"low_time": "1159 PM",
+"product": "202605290619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-29",
+"high": 75,
+"low": 57,
+"high_time": "529 PM",
+"low_time": "607 AM",
+"product": "202605300623-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-30",
+"high": 69,
+"low": 51,
+"high_time": "1214 AM",
+"low_time": "1127 PM",
+"product": "202605310631-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-05-31",
+"high": 75,
+"low": 50,
+"high_time": "444 PM",
+"low_time": "511 AM",
+"product": "202606010617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-01",
+"high": 71,
+"low": 53,
+"high_time": "1253 PM",
+"low_time": "1159 PM",
+"product": "202606020616-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-02",
+"high": 76,
+"low": 52,
+"high_time": "320 PM",
+"low_time": "444 AM",
+"product": "202606030642-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-03",
+"high": 83,
+"low": 61,
+"high_time": "120 PM",
+"low_time": "423 AM",
+"product": "202606040619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-04",
+"high": 86,
+"low": 64,
+"high_time": "1246 PM",
+"low_time": "543 AM",
+"product": "202606050616-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-05",
+"high": 88,
+"low": 66,
+"high_time": "323 PM",
+"low_time": "532 AM",
+"product": "202606060633-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-06",
+"high": 87,
+"low": 66,
+"high_time": "424 PM",
+"low_time": "840 PM",
+"product": "202606070639-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-07",
+"high": 81,
+"low": 66,
+"high_time": "434 PM",
+"low_time": "441 AM",
+"product": "202606080627-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-08",
+"high": 75,
+"low": 63,
+"high_time": "1200 PM",
+"low_time": "527 AM",
+"product": "202606090619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-09",
+"high": 79,
+"low": 61,
+"high_time": "228 PM",
+"low_time": "503 AM",
+"product": "202606100617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-10",
+"high": 82,
+"low": 69,
+"high_time": "1226 PM",
+"low_time": "533 AM",
+"product": "202606110628-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-11",
+"high": 91,
+"low": 72,
+"high_time": "459 PM",
+"low_time": "451 AM",
+"product": "202606120629-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-12",
+"high": 90,
+"low": 72,
+"high_time": "402 PM",
+"low_time": "533 AM",
+"product": "202606130651-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-13",
+"high": 85,
+"low": 70,
+"high_time": "552 PM",
+"low_time": "558 AM",
+"product": "202606140722-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-14",
+"high": 87,
+"low": 70,
+"high_time": "212 PM",
+"low_time": "1159 PM",
+"product": "202606150620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-15",
+"high": 74,
+"low": 62,
+"high_time": "357 PM",
+"low_time": "1148 PM",
+"product": "202606160629-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-16",
+"high": 76,
+"low": 57,
+"high_time": "126 PM",
+"low_time": "521 AM",
+"product": "202606170617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-17",
+"high": 78,
+"low": 63,
+"high_time": "1221 PM",
+"low_time": "509 AM",
+"product": "202606180618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-18",
+"high": 86,
+"low": 68,
+"high_time": "502 PM",
+"low_time": "450 AM",
+"product": "202606190617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-19",
+"high": 81,
+"low": 69,
+"high_time": "212 PM",
+"low_time": "709 AM",
+"product": "202606200619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-20",
+"high": 81,
+"low": 66,
+"high_time": "457 PM",
+"low_time": "556 AM",
+"product": "202606210617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-21",
+"high": 82,
+"low": 65,
+"high_time": "421 PM",
+"low_time": "522 AM",
+"product": "202606220634-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-22",
+"high": 73,
+"low": 67,
+"high_time": "124 PM",
+"low_time": "546 PM",
+"product": "202606230625-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-23",
+"high": 71,
+"low": 66,
+"high_time": "615 AM",
+"low_time": "1159 PM",
+"product": "202606240621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-24",
+"high": 82,
+"low": 64,
+"high_time": "158 PM",
+"low_time": "641 AM",
+"product": "202606250633-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-25",
+"high": 83,
+"low": 66,
+"high_time": "120 PM",
+"low_time": "442 AM",
+"product": "202606260625-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-26",
+"high": 80,
+"low": 66,
+"high_time": "319 PM",
+"low_time": "510 AM",
+"product": "202606270630-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-27",
+"high": 78,
+"low": 68,
+"high_time": "848 AM",
+"low_time": "1159 PM",
+"product": "202606280639-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-28",
+"high": 82,
+"low": 68,
+"high_time": "1209 PM",
+"low_time": "150 AM",
+"product": "202606290650-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-29",
+"high": 88,
+"low": 68,
+"high_time": "225 PM",
+"low_time": "454 AM",
+"product": "202606300642-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-06-30",
+"high": 87,
+"low": 73,
+"high_time": "1226 PM",
+"low_time": "522 AM",
+"product": "202607010620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-01",
+"high": 93,
+"low": 75,
+"high_time": "127 PM",
+"low_time": "649 AM",
+"product": "202607020619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-02",
+"high": 100,
+"low": 82,
+"high_time": "247 PM",
+"low_time": "530 AM",
+"product": "202607030619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-03",
+"high": 98,
+"low": 72,
+"high_time": "358 PM",
+"low_time": "945 PM",
+"product": "202607040620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-04",
+"high": 94,
+"low": 72,
+"high_time": "455 PM",
+"low_time": "1159 PM",
+"product": "202607050620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-05",
+"high": 81,
+"low": 69,
+"high_time": "123 PM",
+"low_time": "1159 PM",
+"product": "202607060619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-06",
+"high": 69,
+"low": 64,
+"high_time": "1222 PM",
+"low_time": "1159 PM",
+"product": "202607070622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-07",
+"high": 70,
+"low": 63,
+"high_time": "752 PM",
+"low_time": "928 AM",
+"product": "202607080621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-08",
+"high": 85,
+"low": 64,
+"high_time": "347 PM",
+"low_time": "440 AM",
+"product": "202607090626-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-09",
+"high": 82,
+"low": 71,
+"high_time": "1050 AM",
+"low_time": "534 AM",
+"product": "202607100625-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-10",
+"high": 85,
+"low": 73,
+"high_time": "1028 AM",
+"low_time": "536 AM",
+"product": "202607110627-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-11",
+"high": 82,
+"low": 70,
+"high_time": "313 PM",
+"low_time": "1145 PM",
+"product": "202607120637-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-12",
+"high": 84,
+"low": 69,
+"high_time": "115 PM",
+"low_time": "418 AM",
+"product": "202607130619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-13",
+"high": 84,
+"low": 70,
+"high_time": "141 PM",
+"low_time": "557 AM",
+"product": "202607140621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-14",
+"high": 90,
+"low": 72,
+"high_time": "412 PM",
+"low_time": "629 AM",
+"product": "202607150616-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-15",
+"high": 95,
+"low": 75,
+"high_time": "1204 PM",
+"low_time": "547 PM",
+"product": "202607160618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-16",
+"high": 85,
+"low": 74,
+"high_time": "532 PM",
+"low_time": "713 AM",
+"product": "202607170617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-17",
+"high": 86,
+"low": 70,
+"high_time": "351 PM",
+"low_time": "445 AM",
+"product": "202607180617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-18",
+"high": 76,
+"low": 69,
+"high_time": "1000 AM",
+"low_time": "101 PM",
+"product": "202607190619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-19",
+"high": 79,
+"low": 68,
+"high_time": "509 PM",
+"low_time": "1149 PM",
+"product": "202607200618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-20",
+"high": 81,
+"low": 63,
+"high_time": "433 PM",
+"low_time": "541 AM",
+"product": "202607210620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-21",
+"high": 81,
+"low": 71,
+"high_time": "1242 PM",
+"low_time": "1031 PM",
+"product": "202607220627-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-22",
+"high": 85,
+"low": 71,
+"high_time": "502 PM",
+"low_time": "1159 PM",
+"product": "202607230619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-23",
+"high": 79,
+"low": 64,
+"high_time": "446 PM",
+"low_time": "608 AM",
+"product": "202607240626-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-24",
+"high": 83,
+"low": 65,
+"high_time": "128 PM",
+"low_time": "539 AM",
+"product": "202607250626-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-25",
+"high": 81,
+"low": 65,
+"high_time": "129 PM",
+"low_time": "538 AM",
+"product": "202607260640-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-26",
+"high": 85,
+"low": 64,
+"high_time": "211 PM",
+"low_time": "536 AM",
+"product": "202607270634-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-27",
+"high": 83,
+"low": 68,
+"high_time": "1258 PM",
+"low_time": "753 PM",
+"product": "202607280643-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-28",
+"high": 79,
+"low": 69,
+"high_time": "1233 PM",
+"low_time": "230 AM",
+"product": "202607290625-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-29",
+"high": 80,
+"low": 69,
+"high_time": "423 PM",
+"low_time": "810 AM",
+"product": "202607300620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-30",
+"high": 74,
+"low": 66,
+"high_time": "553 PM",
+"low_time": "515 AM",
+"product": "202607310619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-07-31",
+"high": 85,
+"low": 67,
+"high_time": "117 PM",
+"low_time": "410 AM",
+"product": "202608010625-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-01",
+"high": 86,
+"low": 72,
+"high_time": "1250 PM",
+"low_time": "538 AM",
+"product": "202608020630-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-02",
+"high": 83,
+"low": 75,
+"high_time": "228 PM",
+"low_time": "624 AM",
+"product": "202608030632-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-03",
+"high": 80,
+"low": 71,
+"high_time": "532 PM",
+"low_time": "1159 PM",
+"product": "202608040622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-04",
+"high": 84,
+"low": 66,
+"high_time": "146 PM",
+"low_time": "536 AM",
+"product": "202608050634-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-05",
+"high": 83,
+"low": 70,
+"high_time": "139 PM",
+"low_time": "443 AM",
+"product": "202608060627-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-06",
+"high": 88,
+"low": 75,
+"high_time": "1229 PM",
+"low_time": "225 AM",
+"product": "202608070620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-07",
+"high": 91,
+"low": 72,
+"high_time": "239 PM",
+"low_time": "636 PM",
+"product": "202608080622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-08",
+"high": 87,
+"low": 71,
+"high_time": "151 PM",
+"low_time": "353 AM",
+"product": "202608090648-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-09",
+"high": 88,
+"low": 75,
+"high_time": "402 PM",
+"low_time": "516 AM",
+"product": "202608100621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-10",
+"high": 85,
+"low": 72,
+"high_time": "319 PM",
+"low_time": "718 PM",
+"product": "202608110627-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-11",
+"high": 85,
+"low": 72,
+"high_time": "126 PM",
+"low_time": "614 AM",
+"product": "202608120622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-12",
+"high": 84,
+"low": 71,
+"high_time": "440 PM",
+"low_time": "724 AM",
+"product": "202608130617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-13",
+"high": 85,
+"low": 70,
+"high_time": "337 PM",
+"low_time": "223 AM",
+"product": "202608140618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-14",
+"high": 84,
+"low": 71,
+"high_time": "349 PM",
+"low_time": "631 AM",
+"product": "202608150619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-15",
+"high": 83,
+"low": 68,
+"high_time": "151 PM",
+"low_time": "555 AM",
+"product": "202608160617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-16",
+"high": 80,
+"low": 67,
+"high_time": "1123 AM",
+"low_time": "1047 PM",
+"product": "202608170633-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-17",
+"high": 81,
+"low": 68,
+"high_time": "418 PM",
+"low_time": "1217 AM",
+"product": "202608180617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-18",
+"high": 86,
+"low": 72,
+"high_time": "1254 PM",
+"low_time": "705 AM",
+"product": "202608190617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-19",
+"high": 85,
+"low": 69,
+"high_time": "158 PM",
+"low_time": "557 AM",
+"product": "202608200644-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-20",
+"high": 84,
+"low": 63,
+"high_time": "1055 AM",
+"low_time": "922 PM",
+"product": "202608210627-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-21",
+"high": 79,
+"low": 63,
+"high_time": "301 PM",
+"low_time": "424 AM",
+"product": "202608220626-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-22",
+"high": 77,
+"low": 67,
+"high_time": "126 PM",
+"low_time": "544 AM",
+"product": "202608230633-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-23",
+"high": 80,
+"low": 68,
+"high_time": "214 PM",
+"low_time": "721 AM",
+"product": "202608240632-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-24",
+"high": 79,
+"low": 65,
+"high_time": "152 PM",
+"low_time": "559 AM",
+"product": "202608250620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-25",
+"high": 78,
+"low": 63,
+"high_time": "344 PM",
+"low_time": "534 AM",
+"product": "202608260635-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-26",
+"high": 81,
+"low": 64,
+"high_time": "139 PM",
+"low_time": "512 AM",
+"product": "202608270622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-27",
+"high": 77,
+"low": 68,
+"high_time": "250 PM",
+"low_time": "941 PM",
+"product": "202608280657-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-28",
+"high": 84,
+"low": 68,
+"high_time": "109 PM",
+"low_time": "538 AM",
+"product": "202608290621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-29",
+"high": 76,
+"low": 64,
+"high_time": "355 PM",
+"low_time": "719 AM",
+"product": "202608301311-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-30",
+"high": 79,
+"low": 67,
+"high_time": "613 PM",
+"low_time": "634 AM",
+"product": "202608310621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-08-31",
+"high": 78,
+"low": 69,
+"high_time": "1228 PM",
+"low_time": "1159 PM",
+"product": "202609010622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-01",
+"high": 82,
+"low": 67,
+"high_time": "345 PM",
+"low_time": "1159 PM",
+"product": "202609020621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-02",
+"high": 71,
+"low": 65,
+"high_time": "138 PM",
+"low_time": "551 AM",
+"product": "202609030626-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-03",
+"high": 84,
+"low": 67,
+"high_time": "458 PM",
+"low_time": "1253 AM",
+"product": "202609040625-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-04",
+"high": 84,
+"low": 71,
+"high_time": "1249 PM",
+"low_time": "347 AM",
+"product": "202609050642-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-05",
+"high": 79,
+"low": 68,
+"high_time": "233 PM",
+"low_time": "1156 PM",
+"product": "202609060752-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-06",
+"high": 76,
+"low": 64,
+"high_time": "309 PM",
+"low_time": "622 AM",
+"product": "202609070631-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-07",
+"high": 78,
+"low": 61,
+"high_time": "308 PM",
+"low_time": "501 AM",
+"product": "202609080620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-08",
+"high": 80,
+"low": 62,
+"high_time": "126 PM",
+"low_time": "542 AM",
+"product": "202609090632-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-09",
+"high": 82,
+"low": 68,
+"high_time": "116 PM",
+"low_time": "603 AM",
+"product": "202609100655-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-10",
+"high": 84,
+"low": 69,
+"high_time": "325 PM",
+"low_time": "452 AM",
+"product": "202609110619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-11",
+"high": 79,
+"low": 67,
+"high_time": "311 PM",
+"low_time": "1159 PM",
+"product": "202609120626-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-12",
+"high": 78,
+"low": 63,
+"high_time": "108 PM",
+"low_time": "559 AM",
+"product": "202609130634-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-13",
+"high": 79,
+"low": 68,
+"high_time": "436 PM",
+"low_time": "834 AM",
+"product": "202609140622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-14",
+"high": 75,
+"low": 63,
+"high_time": "1252 AM",
+"low_time": "1120 PM",
+"product": "202609150623-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-15",
+"high": 72,
+"low": 57,
+"high_time": "229 PM",
+"low_time": "621 AM",
+"product": "202609160620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-16",
+"high": 77,
+"low": 58,
+"high_time": "232 PM",
+"low_time": "508 AM",
+"product": "202609170632-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-17",
+"high": 82,
+"low": 70,
+"high_time": "1255 PM",
+"low_time": "611 AM",
+"product": "202609180639-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-18",
+"high": 80,
+"low": 69,
+"high_time": "216 PM",
+"low_time": "1159 PM",
+"product": "202609190625-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-19",
+"high": 69,
+"low": 63,
+"high_time": "324 PM",
+"low_time": "751 AM",
+"product": "202609200631-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-20",
+"high": 69,
+"low": 62,
+"high_time": "723 PM",
+"low_time": "325 AM",
+"product": "202609210634-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-21",
+"high": 72,
+"low": 61,
+"high_time": "100 PM",
+"low_time": "817 AM",
+"product": "202609220620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-22",
+"high": 68,
+"low": 59,
+"high_time": "301 PM",
+"low_time": "500 AM",
+"product": "202609230630-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-23",
+"high": 67,
+"low": 55,
+"high_time": "342 PM",
+"low_time": "1159 PM",
+"product": "202609240617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-24",
+"high": 66,
+"low": 53,
+"high_time": "305 PM",
+"low_time": "644 AM",
+"product": "202609250633-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-25",
+"high": 69,
+"low": 55,
+"high_time": "228 PM",
+"low_time": "1028 PM",
+"product": "202609260616-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-26",
+"high": 61,
+"low": 55,
+"high_time": "151 PM",
+"low_time": "832 AM",
+"product": "202609270618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-27",
+"high": 63,
+"low": 58,
+"high_time": "322 PM",
+"low_time": "438 AM",
+"product": "202609280622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-28",
+"high": 62,
+"low": 57,
+"high_time": "507 PM",
+"low_time": "739 AM",
+"product": "202609290715-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-29",
+"high": 70,
+"low": 59,
+"high_time": "1227 PM",
+"low_time": "317 AM",
+"product": "202609300622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-09-30",
+"high": 74,
+"low": 60,
+"high_time": "331 PM",
+"low_time": "720 AM",
+"product": "202610010619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-01",
+"high": 76,
+"low": 65,
+"high_time": "103 PM",
+"low_time": "1215 AM",
+"product": "202610020705-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-02",
+"high": 83,
+"low": 68,
+"high_time": "414 PM",
+"low_time": "1159 PM",
+"product": "202610030649-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-03",
+"high": 70,
+"low": 59,
+"high_time": "223 PM",
+"low_time": "1159 PM",
+"product": "202610040619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-04",
+"high": 62,
+"low": 56,
+"high_time": "1200 PM",
+"low_time": "1159 PM",
+"product": "202610050621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-05",
+"high": 68,
+"low": 54,
+"high_time": "1239 PM",
+"low_time": "1104 PM",
+"product": "202610060618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-06",
+"high": 60,
+"low": 48,
+"high_time": "436 PM",
+"low_time": "610 AM",
+"product": "202610070617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-07",
+"high": 65,
+"low": 48,
+"high_time": "209 PM",
+"low_time": "610 AM",
+"product": "202610080621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-08",
+"high": 73,
+"low": 57,
+"high_time": "251 PM",
+"low_time": "626 AM",
+"product": "202610090632-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-09",
+"high": 70,
+"low": 53,
+"high_time": "330 PM",
+"low_time": "631 AM",
+"product": "202610100620-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-10",
+"high": 69,
+"low": 54,
+"high_time": "158 PM",
+"low_time": "651 AM",
+"product": "202610110623-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-11",
+"high": 60,
+"low": 54,
+"high_time": "741 AM",
+"low_time": "1159 PM",
+"product": "202610120622-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-12",
+"high": 70,
+"low": 54,
+"high_time": "211 PM",
+"low_time": "355 AM",
+"product": "202610130725-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-13",
+"high": 71,
+"low": 58,
+"high_time": "950 PM",
+"low_time": "626 AM",
+"product": "202610140632-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-14",
+"high": 77,
+"low": 64,
+"high_time": "259 PM",
+"low_time": "1159 PM",
+"product": "202610150721-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-15",
+"high": 64,
+"low": 54,
+"high_time": "205 PM",
+"low_time": "654 AM",
+"product": "202610160616-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-16",
+"high": 72,
+"low": 59,
+"high_time": "557 PM",
+"low_time": "107 AM",
+"product": "202610170617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-17",
+"high": 62,
+"low": 43,
+"high_time": "1208 AM",
+"low_time": "1159 PM",
+"product": "202610180617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-18",
+"high": 57,
+"low": 41,
+"high_time": "400 PM",
+"low_time": "636 AM",
+"product": "202610190616-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-19",
+"high": 62,
+"low": 47,
+"high_time": "343 PM",
+"low_time": "637 AM",
+"product": "202610200618-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-20",
+"high": 67,
+"low": 50,
+"high_time": "312 PM",
+"low_time": "302 AM",
+"product": "202610210627-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-21",
+"high": 62,
+"low": 50,
+"high_time": "315 PM",
+"low_time": "743 AM",
+"product": "202610220617-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-22",
+"high": 67,
+"low": 49,
+"high_time": "249 PM",
+"low_time": "700 AM",
+"product": "202610230630-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-23",
+"high": 59,
+"low": 47,
+"high_time": "154 PM",
+"low_time": "1129 PM",
+"product": "202610240646-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-24",
+"high": 60,
+"low": 44,
+"high_time": "356 PM",
+"low_time": "655 AM",
+"product": "202610250621-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-25",
+"high": 64,
+"low": 43,
+"high_time": "319 PM",
+"low_time": "659 AM",
+"product": "202610260636-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-26",
+"high": 69,
+"low": 50,
+"high_time": "234 PM",
+"low_time": "722 AM",
+"product": "202610270619-KOKX-CDUS41-CLINYC"
+},
+{
+"station": "KNYC",
+"valid": "2026-10-27",
+"high": 61,
+"low": 46,
+"high_time": "1227 AM",
+"low_time": "1153 PM",
+"product": "202610280616-KOKX-CDUS41-CLINYC"
+}
+]
+}

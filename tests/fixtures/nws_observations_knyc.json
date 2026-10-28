@@ -1,0 +1,805 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-28T18:51:00+00:00",
+"rawMessage": "KNYC 281851Z AUTO 00000KT 10SM CLR 16/04 A3042 RMK AO2 SLP293 T01610039 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 16.1,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-28T17:51:00+00:00",
+"rawMessage": "KNYC 281751Z AUTO 00000KT 10SM CLR 15/04 A3044 RMK AO2 SLP299 T01500039 10150 20078 58022 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 15,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-28T16:51:00+00:00",
+"rawMessage": "KNYC 281651Z AUTO VRB04KT 10SM CLR 14/03 A3047 RMK AO2 SLP309 T01440033 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 14.4,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-28T15:51:00+00:00",
+"rawMessage": "",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 12.8,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-28T14:51:00+00:00",
+"rawMessage": "KNYC 281451Z AUTO 06004KT 10SM CLR 11/02 A3051 RMK AO2 SLP323 T01110022 50005 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 11.1,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-28T13:51:00+00:00",
+"rawMessage": "KNYC 281351Z AUTO VRB04KT 10SM CLR 11/02 A3051 RMK AO2 SLP325 T01060017 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 10.6,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-28T12:51:00+00:00",
+"rawMessage": "KNYC 281251Z AUTO 00000KT 10SM CLR 09/02 A3051 RMK AO2 SLP325 T00940017 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 9.4,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-28T11:51:00+00:00",
+"rawMessage": "KNYC 281151Z AUTO VRB04KT 10SM CLR 08/01 A3049 RMK AO2 SLP317 T00780006 10106 20072 51011 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 7.8,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-28T10:51:00+00:00",
+"rawMessage": "KNYC 281051Z AUTO 04004KT 10SM CLR 08/M01 A3048 RMK AO2 SLP312 T00781006 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 7.8,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-28T08:51:00+00:00",
+"rawMessage": "KNYC 280851Z AUTO VRB04KT 10SM CLR 09/M03 A3046 RMK AO2 SLP306 T00891028 51004 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 8.9,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-28T07:51:00+00:00",
+"rawMessage": "KNYC 280751Z AUTO 04005KT 10SM CLR 10/M02 A3045 RMK AO2 SLP303 T01001017 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 10,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-28T04:51:00+00:00",
+"rawMessage": "KNYC 280451Z AUTO 04003KT 10SM CLR 08/05 A3045 RMK AO2 SLP302 T00780050 401610078 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": null,
+"qualityControl": "Z"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-28T02:51:00+00:00",
+"rawMessage": "KNYC 280251Z AUTO 00000KT 10SM CLR 11/04 A3043 RMK AO2 SLP295 T01110039 53010 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 11.1,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-28T01:51:00+00:00",
+"rawMessage": "KNYC 280151Z AUTO 13003KT 10SM CLR 11/05 A3042 RMK AO2 SLP291 T01110050 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 11.1,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-27T23:51:00+00:00",
+"rawMessage": "KNYC 272351Z AUTO 00000KT 10SM CLR 12/04 A3040 RMK AO2 SLP285 T01170044 10156 20117 50008 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 11.7,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-27T22:51:00+00:00",
+"rawMessage": "KNYC 272251Z AUTO VRB04KT 10SM CLR 12/04 A3040 RMK AO2 SLP286 T01220044 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 12.2,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-27T21:51:00+00:00",
+"rawMessage": "KNYC 272151Z AUTO 00000KT 10SM CLR 13/01 A3038 RMK AO2 SLP277 T01330006 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 13.3,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-27T20:51:00+00:00",
+"rawMessage": "KNYC 272051Z AUTO 06005KT 10SM CLR 14/01 A3037 RMK AO2 SLP276 T01440011 55003 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 14.4,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-27T16:51:00+00:00",
+"rawMessage": "KNYC 271651Z AUTO VRB04KT 10SM CLR 14/02 A3039 RMK AO2 SLP280 T01440017 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 14.4,
+"qualityControl": "S"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-27T15:51:00+00:00",
+"rawMessage": "KNYC 271551Z AUTO 05007G15KT 020V090 10SM CLR 13/02 A3040 RMK AO2 SLP286 T01330017 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": null,
+"qualityControl": "Z"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-27T12:51:00+00:00",
+"rawMessage": "KNYC 271251Z AUTO VRB03KT 10SM CLR 12/02 A3040 RMK AO2 SLP284 T01170022 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 11.7,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-27T11:51:00+00:00",
+"rawMessage": "KNYC 271151Z AUTO 06007KT 020V090 10SM CLR 12/04 A3037 RMK AO2 SLP276 T01170039 10156 20117 53029 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 11.7,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-27T10:51:00+00:00",
+"rawMessage": "KNYC 271051Z AUTO 02004KT 10SM CLR 12/04 A3034 RMK AO2 SLP264 T01220044 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 12.2,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-27T09:51:00+00:00",
+"rawMessage": "KNYC 270951Z AUTO 05007KT 10SM CLR 12/04 A3032 RMK AO2 SLP257 T01220044 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 12.2,
+"qualityControl": "S"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-27T07:51:00+00:00",
+"rawMessage": "KNYC 270751Z AUTO VRB06KT 10SM CLR 14/07 A3026 RMK AO2 SLP238 T01390067 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 13.9,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-27T05:51:00+00:00",
+"rawMessage": "KNYC 270551Z AUTO 00000KT 10SM CLR 15/08 A3022 RMK AO2 SLP226 T01500083 10178 20150 53013 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 15,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-27T03:51:00+00:00",
+"rawMessage": "KNYC 270351Z AUTO 27003KT 10SM CLR 17/07 A3019 RMK AO2 SLP216 T01670067 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 16.7,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-27T02:51:00+00:00",
+"rawMessage": "KNYC 270251Z AUTO 00000KT 10SM CLR 17/07 A3019 RMK AO2 SLP213 T01670067 53008 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": null,
+"qualityControl": "Z"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-26T23:51:00+00:00",
+"rawMessage": "KNYC 262351Z AUTO 25003KT 10SM CLR 18/07 A3016 RMK AO2 SLP205 T01780067 10206 20178 53005 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 17.8,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-26T22:51:00+00:00",
+"rawMessage": "KNYC 262251Z AUTO VRB06KT 10SM CLR 18/06 A3016 RMK AO2 SLP204 T01830061 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 18.3,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-26T21:51:00+00:00",
+"rawMessage": "KNYC 262151Z AUTO VRB03KT 10SM CLR 19/06 A3015 RMK AO2 SLP199 T01890056 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 18.9,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-26T20:51:00+00:00",
+"rawMessage": "KNYC 262051Z AUTO VRB03KT 10SM CLR 20/04 A3015 RMK AO2 SLP200 T02000044 56015 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 20,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-26T19:51:00+00:00",
+"rawMessage": "KNYC 261951Z AUTO 27005KT 10SM CLR 20/04 A3016 RMK AO2 SLP205 T02000039 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 20,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-26T17:51:00+00:00",
+"rawMessage": "KNYC 261751Z AUTO VRB05KT 10SM CLR 19/06 A3019 RMK AO2 SLP215 T01890056 10194 20100 58035 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 18.9,
+"qualityControl": "S"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-26T15:51:00+00:00",
+"rawMessage": "KNYC 261551Z AUTO VRB05KT 10SM CLR 16/06 A3027 RMK AO2 SLP240 T01560061 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 15.6,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-26T14:51:00+00:00",
+"rawMessage": "KNYC 261451Z AUTO 10SM CLR 14/06 A3030 RMK AO2 SLP250 T01390056 58008 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 13.9,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-26T13:51:00+00:00",
+"rawMessage": "KNYC 261351Z AUTO 10SM CLR 12/05 A3031 RMK AO2 SLP255 T01220050 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 12.2,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-26T12:51:00+00:00",
+"rawMessage": "KNYC 261251Z AUTO 10SM CLR 11/05 A3032 RMK AO2 SLP259 T01060050 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 10.6,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-26T11:51:00+00:00",
+"rawMessage": "KNYC 261151Z AUTO 28003KT 10SM CLR 10/05 A3032 RMK AO2 SLP259 T01000050 10111 20100 56008 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 10,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+},
+{
+"properties": {
+"stationId": "KNYC",
+"timestamp": "2026-10-26T10:51:00+00:00",
+"rawMessage": "KNYC 261051Z AUTO 28006KT 10SM CLR 10/05 A3032 RMK AO2 SLP260 T01000050 $",
+"temperature": {
+"unitCode": "wmoUnit:degC",
+"value": 10,
+"qualityControl": "V"
+},
+"maxTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+},
+"minTemperatureLast24Hours": {
+"unitCode": "wmoUnit:degC",
+"value": null
+}
+}
+}
+]
+}

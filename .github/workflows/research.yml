@@ -1,0 +1,81 @@
+name: Research (live data)
+
+# Live smoke scan, station calibration and a backtest against real Kalshi prices.
+# Runs on demand, weekly, and whenever this workflow file changes.
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Backtest window (days)"
+        default: "45"
+  schedule:
+    - cron: "17 9 * * 1"
+  push:
+    paths:
+      - ".github/workflows/research.yml"
+
+permissions:
+  contents: read
+
+env:
+  WXBOT_CONTACT: "github.com/${{ github.repository }}"
+  FORCE_COLOR: "1"
+  COLUMNS: "140"
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -e .
+      - name: Open markets
+        run: wxbot markets
+      - name: Model vs market (no trading)
+        run: wxbot scan
+      - name: Scan as JSON
+        run: wxbot scan --json > scan.json && head -c 20000 scan.json
+      - uses: actions/upload-artifact@v4
+        with: { name: scan, path: scan.json }
+
+  calibrate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:  # split across runners to stay inside Open-Meteo's free hourly quota
+        group:
+          - "KNYC KMDW KMIA KAUS"
+          - "KLAX KDEN KPHL KDFW"
+          - "KBOS KSEA KSFO KLAS"
+          - "KPHX KATL KDCA KMSP"
+          - "KHOU KSAT KOKC KMSY"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -e .
+      - name: Fit station calibrations (365 days)
+        env:
+          GROUP: ${{ matrix.group }}
+        run: wxbot -v calibrate --kind both --days 365 --station $GROUP
+      - name: Print calibration files
+        run: |
+          shopt -s nullglob
+          for f in calibration/*.json; do echo "=== $f"; cat "$f"; done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: calibration-${{ strategy.job-index }}
+          path: calibration/
+
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -e .
+      - name: Replay strategy on real Kalshi prices
+        env:
+          DAYS: ${{ github.event.inputs.days || '45' }}
+        run: wxbot -v backtest --days "$DAYS"

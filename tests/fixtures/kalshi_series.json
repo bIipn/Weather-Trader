@@ -1,0 +1,1880 @@
+{
+ "series": [
+  {
+   "ticker": "KXHIGHTEDDF",
+   "title": "Daily high temp Frankfurt",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTKSAN",
+   "title": "Low Temperature San Diego",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTEHAM",
+   "title": "Amsterdam Daily Low Temperature",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTSDF",
+   "title": "Lowest Temperature SDX",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTDAL",
+   "title": "Dallas Maximum Temperature",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTEDDB",
+   "title": "Daily Low Temp Berlin ",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTOMDB",
+   "title": "Daily low temp Dubai",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTBOS",
+   "title": "Low Temperature Boston",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTYSSY",
+   "title": "Daily low temp Sydney",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWCHI",
+   "title": "Lowest temperature in Chicago",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service",
+     "url": "https://www.weather.gov/srh/nwsoffices"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/CITYLOW.pdf"
+  },
+  {
+   "ticker": "KXLOWTVHHH",
+   "title": "Daily low temp Hong Kong",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTEWR",
+   "title": "Newark, NJ (EWR) Daily Low Temp",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTSFO",
+   "title": "San Francisco High Temperature Daily",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTSAN",
+   "title": "Low Temperature San Diego",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTBOS",
+   "title": "Boston Maximum Daily Temperature",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTHOU",
+   "title": "Low Temperature Houston",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTDEN",
+   "title": "Lowest temperature in Denver",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTEWR",
+   "title": "Newark, NJ (EWR) Daily Max Temp",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTSBGR",
+   "title": "Daly high temp Sao Paulo",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "HIGHCHI",
+   "title": "Highest temperature in Chicago",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service ",
+     "url": "https://forecast.weather.gov/product.php?site=LOT&product=CLI&issuedby=MDW"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/CHIHIGH.pdf"
+  },
+  {
+   "ticker": "KXLOWLAX",
+   "title": "Lowest temperature in Los Angeles",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service",
+     "url": "https://www.weather.gov/srh/nwsoffices"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/CITYLOW.pdf"
+  },
+  {
+   "ticker": "KXHIGHPHIL",
+   "title": "Highest temperature in Philadelphia",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHOU",
+   "title": "Highest temperature in Houston",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "NWS Climatological Report Houston",
+     "url": "https://forecast.weather.gov/product.php?site=HGX&product=CLI&issuedby=HOU"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/HOUHIGH.pdf"
+  },
+  {
+   "ticker": "KXLOWTLTFM",
+   "title": "Daily low temp Istanbul",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTSEA",
+   "title": "Seattle Maximum Temperature Daily",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTYSSY",
+   "title": "Daily high temp Sydney",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTRKSI",
+   "title": "Daily low temp Seoul",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTLV",
+   "title": "Las Vegas Max Daily Temperature",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTRJTT",
+   "title": "Daily low temp Tokyo",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTMMMX",
+   "title": "Daily low temp Mexico City",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTOKC",
+   "title": "Oklahoma City Maximum High Temperature",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHOUHIGH",
+   "title": "Highest temperature in Houston",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "NWS Climatological Report Houston",
+     "url": "https://forecast.weather.gov/product.php?site=HGX&product=CLI&issuedby=HOU"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/HOUHIGH.pdf"
+  },
+  {
+   "ticker": "KXLOWTATL",
+   "title": "Low Temperature Atlanta",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTZBAA",
+   "title": "Beijing Daily Low Temperature",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTCYYZ",
+   "title": "Daily low temp Toronto",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHHOU",
+   "title": "Highest temperature in Houston",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "NWS Climatological Report Houston",
+     "url": "https://forecast.weather.gov/product.php?site=HGX&product=CLI&issuedby=HOU"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/HOUHIGH.pdf"
+  },
+  {
+   "ticker": "KXHIGHDEN",
+   "title": "Highest temperature in Denver",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTPHX",
+   "title": "Phoenix High Temperature Daily",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTCHI",
+   "title": "Lowest Temperature Chicago",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "HIGHUS",
+   "title": "High temp in United States",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service (US High)",
+     "url": "https://www.wpc.ncep.noaa.gov/discussions/hpcdiscussions.php?disc=nathilo&version=0&fmt=reg"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/USHIGH.pdf"
+  },
+  {
+   "ticker": "KXDVHIGH",
+   "title": "Death Valley temperature",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service",
+     "url": "https://forecast.weather.gov/product.php?site=VEF&product=CLI&issuedby=LAS"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/DVTEMP.pdf"
+  },
+  {
+   "ticker": "KXHIGHUS",
+   "title": "High temp in United States",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service (US High)",
+     "url": "https://www.wpc.ncep.noaa.gov/discussions/hpcdiscussions.php?disc=nathilo&version=0&fmt=reg"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/USHIGH.pdf"
+  },
+  {
+   "ticker": "KXLOWTSEA",
+   "title": "Low Temperature Seattle",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWNY",
+   "title": "Lowest Temperature in NYC",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTZSPD",
+   "title": "Daily high temp Shanghai",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURECELSIUS.pdf"
+  },
+  {
+   "ticker": "KXHIGHTNOLA",
+   "title": "New Orleans Max temp Daily",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTSATX",
+   "title": "Lowest Temperature SATX",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTDAL",
+   "title": "Lowest temperature Dallas",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTDC",
+   "title": "Lowest Temperature DC ",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTSAN",
+   "title": "High Temperature San Diego",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWDEN",
+   "title": "Lowest temperature in Denver",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service",
+     "url": "https://www.weather.gov/srh/nwsoffices"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/CITYLOW.pdf"
+  },
+  {
+   "ticker": "KXLOWNYC",
+   "title": "Lowest temperature in New York",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service",
+     "url": "https://www.weather.gov/srh/nwsoffices"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/CITYLOW.pdf"
+  },
+  {
+   "ticker": "KXHIGHTOMDB",
+   "title": "Daily high temp Dubai",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTNYC",
+   "title": "Lowest temperature in NYC",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "HIGHMIA",
+   "title": "Highest temperature in Miami",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service",
+     "url": "https://forecast.weather.gov/product.php?site=MFL&product=CLI&issuedby=MIA"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/MIAHIGH.pdf"
+  },
+  {
+   "ticker": "KXHIGHNY",
+   "title": "Highest temperature in NYC",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTLFPG",
+   "title": "Daily low temp Paris ",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTZSPD",
+   "title": "Daily low temp Shanghai",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWPHIL",
+   "title": "Lowest temperature in Philadelphia",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service",
+     "url": "https://www.weather.gov/srh/nwsoffices"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/CITYLOW.pdf"
+  },
+  {
+   "ticker": "KXLOWTNOLA",
+   "title": "NOLA Low Temperature",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTSATX",
+   "title": "San Antonio Daily Maximum Temperature",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTWSSS",
+   "title": "Daily low temp Singapore",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTAUS",
+   "title": "Lowest temperature in Austin",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTSDF",
+   "title": "HIGHEST Temperature SATX",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTEBBR",
+   "title": "Daily high temp Brussels",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHCHI",
+   "title": "Highest temperature in Chicago",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTPHX",
+   "title": "Low Temperature Phoenix",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHMIA",
+   "title": "Highest temperature in Miami",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWMIA",
+   "title": "Lowest temperature in Miami",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service",
+     "url": "https://www.weather.gov/srh/nwsoffices"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/CITYLOW.pdf"
+  },
+  {
+   "ticker": "KXLOWTLSSG",
+   "title": "Daily low temp Geneva",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service",
+     "url": "https://www.weather.gov"
+    },
+    {
+     "name": "the national weather service for area (e.g. Australian Bureau of Meteorology, the Met Office, etc.)",
+     "url": "https://kalshi.com"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTSBGR",
+   "title": "Daily low temp Sao Paulo ",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHAUS",
+   "title": "Highest temperature in Austin",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTLAX",
+   "title": "Lowest Temperature in LA",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTLFPG",
+   "title": "Daily high temp Paris",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURECELSIUS.pdf"
+  },
+  {
+   "ticker": "KXHIGHTRJTT",
+   "title": "Daily high temp Tokyo",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTMIN",
+   "title": "Low  temperature Minnesota",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTCYYZ",
+   "title": "Daily high temp Toronto",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTATL",
+   "title": "Atlanta Max Temperature",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTZBAA",
+   "title": "Beijing Daily High Temperature",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTTTN",
+   "title": "Trenton, NJ Daily Max Temp",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTMIA",
+   "title": "Lowest temperature in Miami",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTLV",
+   "title": "Las Vegas Daily Low Temperature",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTLSGG",
+   "title": "Daily low temperature Geneva",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTVABB",
+   "title": "Daily low temp Mumbai",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTEBBR",
+   "title": "Daily low temp Brussels",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTLSGG",
+   "title": "Daily high temp Geneva",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTEDDB",
+   "title": "Daily high temp Berlin",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTOKC",
+   "title": "Low Temperature Oklahoma City",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTMMMX",
+   "title": "Daily high temp Mexico City",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWAUS",
+   "title": "Lowest temperature in Austin",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service",
+     "url": "https://www.weather.gov/srh/nwsoffices"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/CITYLOW.pdf"
+  },
+  {
+   "ticker": "KXLOWTEGLL",
+   "title": "Daily low temp London",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTHOU",
+   "title": "Daily High Temperature Houston",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTWSSS",
+   "title": "Daily high temp Singapore",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "HIGHAUS",
+   "title": "Highest temperature in Austin",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service",
+     "url": "https://forecast.weather.gov/product.php?site=EWX&product=CLI&issuedby=AUS"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/AUSHIGH.pdf"
+  },
+  {
+   "ticker": "KXHIGHTEGLL",
+   "title": "Daily high temp London ",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURECELSIUS.pdf"
+  },
+  {
+   "ticker": "KXDENHIGH",
+   "title": "Highest temperature in Denver",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "NWS Climatological Report",
+     "url": "https://forecast.weather.gov/product.php?site=BOU&product=CLI&issuedby=DEN"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/DENHIGH.pdf"
+  },
+  {
+   "ticker": "HIGHNY",
+   "title": "Highest temperature in NYC",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "National Weather Service",
+     "url": "https://forecast.weather.gov/product.php?site=OKX&product=CLI&issuedby=NYC"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/NHIGH.pdf"
+  },
+  {
+   "ticker": "KXHIGHTEHAM",
+   "title": "Amsterdam Daily High Temperature",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURECELSIUS.pdf"
+  },
+  {
+   "ticker": "KXHIGHTRKSI",
+   "title": "Daily high temp Seoul",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTVHHH",
+   "title": "Daily high temp Hong Kong",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURECELSIUS.pdf"
+  },
+  {
+   "ticker": "KXHIGHTKSAN",
+   "title": "Daily High Temperature San Diego",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTPHIL",
+   "title": "Lowest temperature in Philadelphia",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTEDDF",
+   "title": "Daily low temp Frankfurt",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHLAX",
+   "title": "Highest temperature in Los Angeles",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTVABB",
+   "title": "Daily high temp Mumbai",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTSFO",
+   "title": "Lowest Temperature San Francisco",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTLTFM",
+   "title": "Daily high temp Istanbul",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": null,
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/INTERNATIONALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXLOWTTTN",
+   "title": "Trenton Daily low temp ",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTMIN",
+   "title": "Minneapolis Daily High Temperature",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  },
+  {
+   "ticker": "KXHIGHTDC",
+   "title": "Washington DC Daily Max Temp",
+   "category": "Climate and Weather",
+   "frequency": "daily",
+   "fee_type": "quadratic",
+   "fee_multiplier": 1,
+   "settlement_sources": [
+    {
+     "name": "The Weather Company",
+     "url": "https://weather.com/kalshi"
+    }
+   ],
+   "tags": [
+    "Daily temperature"
+   ],
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GLOBALTEMPERATURE.pdf"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+# Copy to config.toml and adjust. Environment variables (see .env.example) override [bot].
+
+[bot]
+mode = "paper"              # paper | demo | live
+paper_bankroll = 1000.0     # simulated starting cash for paper mode
+interval_seconds = 300      # time between cycles for `wxbot run`
+# stations = ["KNYC", "KMDW", "KMIA"]   # trade only these settlement stations
+# series = ["KXHIGHNY", "KXHIGHCHI"]   # or only these Kalshi series (default: discover all)
+
+[strategy]
+execution = "hybrid"        # taker | maker | hybrid (take big edges, rest quotes on small ones)
+min_edge = 0.05             # taker: expected profit per contract after fees, in dollars
+min_edge_maker = 0.03       # resting quotes: expected profit per contract
+kelly_fraction = 0.25       # quarter Kelly
+max_stake_per_market = 25.0
+max_event_loss = 60.0       # worst case across all brackets of one city-day
+max_total_exposure = 300.0
+daily_loss_limit = 100.0
+min_price = 0.04
+max_price = 0.96
+max_model_market_gap = 0.30 # bigger disagreements are usually bad data, not alpha
+trade_days = [0, 1]         # 0 = today's climate day, 1 = tomorrow
+require_calibration = false # true = only trade stations with a fitted calibration file
+
+[model]
+tail_weight = 0.15          # share of the fat-tailed error component
+nowcast_p_up = 0.30         # chance the official peak beats the hourly reports by 1°
+max_obs_age_minutes = 100   # stop trading today's market if observations go stale
+use_ensembles = true
