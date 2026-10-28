@@ -1,7 +1,8 @@
 name: Research (live data)
 
 # Live smoke scan, station calibration and a backtest against real Kalshi prices.
-# Runs on demand, weekly, and whenever this workflow file changes.
+# Runs on demand, weekly, and whenever this workflow file changes. Results are
+# published to the `research-results` branch.
 on:
   workflow_dispatch:
     inputs:
@@ -16,6 +17,10 @@ on:
 
 permissions:
   contents: read
+
+concurrency:
+  group: research
+  cancel-in-progress: true
 
 env:
   WXBOT_CONTACT: "github.com/${{ github.repository }}"
@@ -35,9 +40,9 @@ jobs:
       - name: Model vs market (no trading)
         run: wxbot scan
       - name: Scan as JSON
-        run: wxbot scan --json > scan.json && head -c 20000 scan.json
+        run: mkdir -p out && wxbot scan --json > out/scan.json
       - uses: actions/upload-artifact@v4
-        with: { name: scan, path: scan.json }
+        with: { name: scan, path: out/ }
 
   calibrate:
     runs-on: ubuntu-latest
@@ -59,17 +64,14 @@ jobs:
         env:
           GROUP: ${{ matrix.group }}
         run: wxbot -v calibrate --kind both --days 365 --station $GROUP
-      - name: Print calibration files
-        run: |
-          shopt -s nullglob
-          for f in calibration/*.json; do echo "=== $f"; cat "$f"; done
       - uses: actions/upload-artifact@v4
         with:
           name: calibration-${{ strategy.job-index }}
-          path: calibration/
+          path: calibration/*.json
 
   backtest:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -78,4 +80,34 @@ jobs:
       - name: Replay strategy on real Kalshi prices
         env:
           DAYS: ${{ github.event.inputs.days || '45' }}
-        run: wxbot -v backtest --days "$DAYS"
+        run: |
+          mkdir -p out
+          wxbot -v backtest --days "$DAYS" --json > out/backtest.json
+          cat out/backtest.json
+      - uses: actions/upload-artifact@v4
+        with: { name: backtest, path: out/ }
+
+  publish:
+    needs: [scan, calibrate, backtest]
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: artifacts }
+      - name: Commit results to the research-results branch
+        run: |
+          mkdir -p /tmp/results/calibration
+          cp artifacts/calibration-*/*.json /tmp/results/calibration/ 2>/dev/null || true
+          cp artifacts/scan/*.json artifacts/backtest/*.json /tmp/results/ 2>/dev/null || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan research-results
+          git rm -rfq .
+          cp -r /tmp/results/. .
+          echo "Research results from ${GITHUB_SHA::7} on $(date -u +%F)" > README.md
+          git add -A
+          git commit -qm "Research results ${GITHUB_SHA::7}"
+          git push -f origin research-results

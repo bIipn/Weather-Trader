@@ -161,32 +161,32 @@ def cmd_calibrate(args, s: Settings) -> int:
 
 
 def cmd_backtest(args, s: Settings) -> int:
-    from .backtest import run_backtest
+    from .backtest import run_backtest, samples_json
     from .http import Http
 
     with console.status("replaying markets…"):
-        res = run_backtest(Http(s.user_agent), s, args.series, args.days, args.decision_hour)
+        res = run_backtest(Http(s.user_agent), s, args.series, args.days,
+                           nowcast_hours=() if args.no_nowcast else (11, 14, 17, 20))
     summary = res.summary()
     if args.json:
-        print(json.dumps({"summary": summary, "series": [
-            {"series": st.series, "station": st.station, "events": st.events, "trades": len(st.trades),
-             "pnl": round(st.pnl, 2), "cost": round(st.cost, 2), "calibrated_days": st.calibrated_days,
-             "brier_model": round(st.brier_model / st.markets, 4) if st.markets else None,
-             "brier_market": round(st.brier_market / st.markets, 4) if st.markets else None}
-            for st in res.stats], "errors": res.errors}, indent=2, default=str))
+        print(json.dumps({"summary": summary, "errors": res.errors, "samples": samples_json(res)}, default=str))
         return 0
     t = Table(title=Text(f"Backtest  {summary['window']}", style="bold"), title_justify="left", header_style=MUTED)
-    for col in ("Series", "Station", "Events", "Brier model", "Brier market", "Trades", "Win %", "Cost", "P&L"):
-        t.add_column(col, justify="left" if col in ("Series", "Station") else "right")
-    for st in res.stats:
-        wins = sum(tr.won for tr in st.trades)
-        t.add_row(st.series, st.station, str(st.events),
-                  f"{st.brier_model / st.markets:.4f}" if st.markets else "—",
-                  f"{st.brier_market / st.markets:.4f}" if st.markets else "—",
-                  str(len(st.trades)), f"{wins / len(st.trades):.0%}" if st.trades else "—",
-                  money(st.cost), Text(money(st.pnl), style=GREEN if st.pnl >= 0 else RED))
+    for col in ("Decision", "Brackets", "Brier model", "Brier market", "Trades", "Win %", "Staked", "P&L", "ROI"):
+        t.add_column(col, justify="left" if col == "Decision" else "right")
+    for mode, st in summary.items():
+        if mode == "window":
+            continue
+        label = "day before, 10 PM" if mode == "dayahead" else f"same day, {int(mode[-2:])}:00"
+        better = st["brier_model"] is not None and st["brier_market"] is not None and st["brier_model"] < st["brier_market"]
+        t.add_row(label, str(st["quoted"]), Text(f"{st['brier_model']}", style=GREEN if better else RED),
+                  f"{st['brier_market']}", str(st["trades"]),
+                  f"{st['win_rate']:.0%}" if st["win_rate"] is not None else "—", money(st["cost"]),
+                  Text(money(st["pnl"]), style=GREEN if st["pnl"] >= 0 else RED),
+                  f"{st['roi']:+.1%}" if st["roi"] is not None else "—")
     console.print(t)
-    console.print(json.dumps(summary, default=str))
+    console.print(Text("Brier score: lower is better. Model in green when it beat the market's own prices.",
+                       style=DIM))
     for err in res.errors:
         console.print(Text(f"! {err}", style=MUTED))
     return 0
@@ -239,8 +239,8 @@ def main(argv: list[str] | None = None) -> int:
     p = sub.add_parser("backtest", help="replay the strategy against historical Kalshi prices")
     p.add_argument("--series", nargs="*", default=MAIN_SERIES)
     p.add_argument("--days", type=int, default=45)
-    p.add_argument("--decision-hour", type=int, default=22, help="local hour on the day before (default 22)")
-    p.add_argument("--json", action="store_true")
+    p.add_argument("--no-nowcast", action="store_true", help="skip the same-day (observation) replay")
+    p.add_argument("--json", action="store_true", help="summary plus every replayed bracket")
     p.set_defaults(func=cmd_backtest)
 
     p = sub.add_parser("markets", help="list open temperature markets and their settlement stations")

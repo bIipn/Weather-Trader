@@ -45,6 +45,15 @@ class Http:
         json_body: Any = None,
         headers: dict | None = None,
     ) -> Any:
+        resp = self._send(method, url, params, json_body, headers)
+        if resp.status_code == 204 or not (resp.text or "").strip():
+            return {}
+        return resp.json()
+
+    def get_text(self, url: str, params: dict | None = None) -> str:
+        return self._send("GET", url, params, None, {"Accept": "text/plain, */*"}).text or ""
+
+    def _send(self, method: str, url: str, params: dict | None, json_body: Any, headers: dict | None):
         hdrs = {"User-Agent": self.user_agent, "Accept": "application/json"}
         hdrs.update(headers or {})
         last_error: Exception | None = None
@@ -70,9 +79,7 @@ class Http:
                 continue
             if resp.status_code >= 400:
                 raise HttpError(resp.status_code, url, resp.text or "")
-            if resp.status_code == 204 or not (resp.text or "").strip():
-                return {}
-            return resp.json()
+            return resp
         raise HttpError(None, url, str(last_error))
 
     def get_json(

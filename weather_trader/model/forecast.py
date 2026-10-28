@@ -141,7 +141,7 @@ class Forecaster:
             dist = OutcomeDistribution(self._mixture(mu, sigma), kind)
             fc = Forecast(station, day, kind, unit, phase, mu, sigma, lead_h, dist, sources, notes=notes)
         else:
-            fc = self._intraday(station, day, kind, unit, now, start, end, hourly, series, cal,
+            fc = self.intraday(station, day, kind, unit, now, start, end, hourly, series, cal,
                                 sources, mu, notes, observations)
         fc.calibrated = cal.fitted
         if fc.tradeable and len(fc.sources) < self.cfg.min_sources and fc.phase == "pre":
@@ -185,7 +185,7 @@ class Forecaster:
         )
         return mu, sigma
 
-    def _intraday(self, station, day, kind, unit, now, start, end, hourly: Hourly, series, cal,
+    def intraday(self, station, day, kind, unit, now, start, end, hourly: Hourly, series, cal,
                   sources, mu_full, notes, observations) -> Forecast:
         step = 1.0 if unit == "F" else 0.1
         sign = 1.0 if kind == "high" else -1.0
