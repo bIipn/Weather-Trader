@@ -38,7 +38,7 @@ def test_stale_observations_block_trading(fake_http, tmp_path):
 
 
 def test_paper_cycle_journals_orders(fake_http, tmp_path):
-    eng = engine(fake_http, tmp_path, execution="taker", max_event_loss=30.0)
+    eng = engine(fake_http, tmp_path, execution="taker", max_event_loss=30.0, forecast_trading=True)
     res = eng.cycle(now=NOW)
     assert not res.errors
     assert res.orders, "fixture day-ahead prices disagree with the model, so the paper bot should trade"
@@ -49,3 +49,21 @@ def test_paper_cycle_journals_orders(fake_http, tmp_path):
     for v in res.views:
         mine = [p for p in held.values() if p.event_ticker == v.event.event_ticker]
         assert worst_case_loss(v.event, mine, []) <= 30.0 + 1e-6
+
+
+def test_forecast_trading_is_off_by_default(fake_http, tmp_path):
+    views = engine(fake_http, tmp_path).scan(now=NOW)
+    assert all(r.best is None or r.best.note.startswith("dead:") for v in views for r in v.rows)
+
+
+def test_sniper_sells_brackets_the_observations_ruled_out(fake_http, tmp_path):
+    eng = engine(fake_http, tmp_path)
+    events = eng.discovery.open_events(NOW)
+    today = events[0]
+    cold = next(m for m in today.markets if m.bracket.bounds() == (None, 59))  # 61° already observed
+    cold.yes_bid, cold.yes_bid_size = 0.05, 40
+    row = next(r for r in eng.scan(now=NOW, events=events)[0].rows if r.market is cold)
+    assert row.skip == "ruled out by observations"
+    assert (row.best.side, row.best.price, row.best.count) == ("no", 0.95, 40)
+    res = eng.cycle(now=NOW)  # fresh discovery: the real fixture has no bid on dead brackets
+    assert not any(o.note.startswith("dead:") for o in res.orders)

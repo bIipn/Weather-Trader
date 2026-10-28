@@ -6,7 +6,7 @@ from weather_trader.calibrate import day_windows
 from weather_trader.stations import STATIONS, climate_day_window
 from weather_trader.weather import NWS, OpenMeteo, build_nowcast, window_extreme
 from weather_trader.weather.iem import parse_cli
-from weather_trader.weather.nws import official_reading, parse_remarks
+from weather_trader.weather.nws import Observation, despike, official_reading, parse_remarks
 from weather_trader.weather.openmeteo import daily_extremes
 from weather_trader.weather.tomorrow import parse_hourly
 
@@ -80,3 +80,12 @@ def test_tomorrow_io_hourly_parsing():
     h = parse_hourly({"timelines": {"hourly": [{"time": "2026-10-29T18:00:00Z", "values": {"temperature": 67.1}}]}})
     assert h.series == {"tomorrow_io": [67.1]}
     assert h.times[0] == datetime(2026, 10, 29, 18, tzinfo=UTC)
+
+
+def test_despike_drops_isolated_sensor_glitches():
+    t = datetime(2026, 10, 28, 12, 51, tzinfo=UTC)
+    temps = [15.0, 15.6, 37.2, 16.1, 16.7]  # one 99°F glitch in a 60°F afternoon
+    obs = [Observation(t.replace(hour=12 + i), c) for i, c in enumerate(temps)]
+    assert [o.temp_c for o in despike(obs)] == [15.0, 15.6, 16.1, 16.7]
+    start, end = climate_day_window(NYC, date(2026, 10, 28))
+    assert build_nowcast(obs, start, end, "high").extreme == 62.0

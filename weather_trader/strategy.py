@@ -189,7 +189,8 @@ def select_orders(
             continue
         ev_positions = [p for p in positions.values() if p.event_ticker == ev.event.event_ticker]
         picked: list[Order] = []
-        for row in sorted((r for r in ev.rows if r.best), key=lambda r: -r.best.edge):
+        forecast_rows = (r for r in ev.rows if r.best and not r.best.note.startswith("dead:"))
+        for row in sorted(forecast_rows, key=lambda r: -r.best.edge):
             order = row.best
             held = positions.get(order.ticker)
             if held and held.side == order.side:

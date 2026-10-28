@@ -21,7 +21,7 @@ from .markets import WeatherEvent, WeatherMarket
 from .stations import climate_day_window
 from .strategy import Order, taker_fee
 from .weather.iem import IEM
-from .weather.nws import Observation, official_reading
+from .weather.nws import Observation, despike, official_reading
 
 log = logging.getLogger("wxbot")
 
@@ -29,7 +29,8 @@ log = logging.getLogger("wxbot")
 def observed_extreme(obs: list[Observation], start: datetime, end: datetime, kind: str = "high",
                      unit: str = "F") -> float | None:
     """The most extreme official-grid reading reported inside [start, end)."""
-    vals = [official_reading(o.temp_c, unit) for o in obs if o.temp_c is not None and start <= o.time < end]
+    inside = despike([o for o in obs if o.temp_c is not None and start <= o.time < end])
+    vals = [official_reading(o.temp_c, unit) for o in inside]
     if not vals:
         return None
     return max(vals) if kind == "high" else min(vals)
@@ -106,7 +107,7 @@ def run_sniper_backtest(http: Http, settings: Settings, series: list[str], days:
             ws, we = climate_day_window(station, ev.day)
             dead: set[str] = set()
             running = None
-            for o in (o for o in obs_all if ws <= o.time < we and o.temp_c is not None):
+            for o in despike([o for o in obs_all if ws <= o.time < we and o.temp_c is not None]):
                 r = official_reading(o.temp_c, unit)
                 if running is not None and ((kind == "high" and r <= running) or (kind == "low" and r >= running)):
                     continue

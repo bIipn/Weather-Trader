@@ -1,7 +1,7 @@
 name: Research (live data)
 
 # Live smoke scan, station calibration and a backtest against real Kalshi prices.
-# Runs on demand, weekly, and whenever this workflow file changes. Results are
+# Runs on demand, weekly (Mondays), and whenever this workflow file changes. Results are
 # published to the `research-results` branch.
 on:
   workflow_dispatch:

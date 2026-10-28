@@ -76,6 +76,9 @@ def header(mode: str, balance: float, exposure: float, loss_today: float, n_even
 def _signal(order: Order | None, skip: str) -> Text:
     if order is None:
         return Text(skip[:40], style=DIM) if skip else Text("")
+    if order.note.startswith("dead:"):
+        return Text.assemble(("SNIPE NO ", f"bold {AMBER}"), (f"{cents(order.price):>4} ×{order.count:<4}", "bold"),
+                             (" dead", DIM))
     color = GREEN if order.side == "yes" else ROSE
     verb = "BUY YES" if order.side == "yes" else "BUY NO "
     how = "take" if order.style == "take" else "rest"
@@ -116,7 +119,7 @@ def event_table(view: EventView) -> Table:
             word = "max" if ev.kind == "high" else "min"
             caption.append(f"\nobserved {word} so far ", style=MUTED)
             caption.append(f"{nc.extreme:g}{unit}", style=f"bold {AMBER}")
-            caption.append(" confirmed" if nc.exact else " (unconfirmed — could still tick 1°)", style=MUTED)
+            caption.append(" (final)" if nc.final else (" confirmed by 6h group" if nc.exact else " (unconfirmed — official often lands 1° beyond)"), style=MUTED)
             if nc.last_time and nc.last_temp is not None:
                 caption.append(f"   now {nc.last_temp:.0f}{unit} at {nc.last_time:%H:%M} UTC", style=MUTED)
         if fc.notes:

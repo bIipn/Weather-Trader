@@ -12,6 +12,14 @@ from .model.forecast import ModelSettings
 
 @dataclass
 class StrategyConfig:
+    # Forecast trading: bet where the model disagrees with the market. Off by default — in
+    # backtests the market's own prices were better calibrated than the model (see README).
+    forecast_trading: bool = False
+    model_weight: float = 0.5          # trade on w·model + (1-w)·market mid, not the raw model
+    # Dead-bracket sniping: sell any bid left on a bracket the observations already ruled out.
+    sniper: bool = True
+    sniper_min_bid: float = 0.02
+    sniper_max_contracts: int = 200
     min_edge: float = 0.05             # taker: min expected profit per contract after fees ($)
     min_edge_maker: float = 0.03       # maker quotes: min expected profit per contract ($)
     execution: str = "hybrid"          # taker | maker | hybrid

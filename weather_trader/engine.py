@@ -14,6 +14,7 @@ from .kalshi import DEMO_URL, PROD_URL, KalshiClient, KalshiSigner
 from .ledger import Ledger
 from .markets import MarketDiscovery, WeatherEvent
 from .model import CalibrationStore, Forecaster
+from .sniper import is_dead, snipe_orders
 from .stations import climate_today
 from .strategy import EventView, Order, evaluate_market, select_orders
 from .weather import NWS, OpenMeteo, TomorrowIO
@@ -91,11 +92,23 @@ class Engine:
                 views.append(EventView(ev, None, error=f"{type(exc).__name__}: {exc}"[:200]))
                 continue
             view = EventView(ev, fc)
+            cfg = self.s.strategy
+            extreme = fc.nowcast.extreme if fc.nowcast and ev.station_source in ("rules", "fallback") else None
+            snipes = {o.ticker: o for o in snipe_orders(ev, extreme, cfg, cfg.sniper_min_bid,
+                                                        cfg.sniper_max_contracts)} if extreme is not None else {}
             for m in ev.markets:
-                row = evaluate_market(m, fc.dist.prob(m.bracket), self.s.strategy, bankroll)
-                if not fc.tradeable:
+                p_model = fc.dist.prob(m.bracket)
+                p_trade = p_model if m.mid is None else cfg.model_weight * p_model + (1 - cfg.model_weight) * m.mid
+                row = evaluate_market(m, p_trade, cfg, bankroll)
+                row.prob = p_model
+                if extreme is not None and is_dead(m, extreme, ev.kind):
+                    row.best = snipes.get(m.ticker) if cfg.sniper else None
+                    row.skip = "ruled out by observations"
+                elif not cfg.forecast_trading:
+                    row.best = None
+                elif not fc.tradeable:
                     row.best, row.skip = None, "; ".join(fc.notes) or "not tradeable"
-                elif self.s.strategy.require_calibration and not fc.calibrated:
+                elif cfg.require_calibration and not fc.calibrated:
                     row.best, row.skip = None, "station not calibrated"
                 elif ev.station_source not in ("rules", "fallback"):
                     row.best, row.skip = None, "station inferred from city name"
@@ -133,6 +146,15 @@ class Engine:
         res.canceled = self.broker.cancel_resting()
         res.exposure = self.broker.exposure()
         res.orders = select_orders(res.views, self.broker.positions(), self.s.strategy, res.exposure, res.loss_today)
+        # Snipes are settled already (the bracket cannot win), so they skip the per-event
+        # loss checks but still respect the overall exposure cap.
+        budget = self.s.strategy.max_total_exposure - res.exposure - sum(o.cost for o in res.orders)
+        for v in res.views:
+            for row in v.rows:
+                o = row.best
+                if o is not None and o.note.startswith("dead:") and o.cost <= budget:
+                    res.orders.append(o)
+                    budget -= o.cost
         for order in res.orders:
             try:
                 res.fills.append({"order": order, **self.broker.submit(order)})

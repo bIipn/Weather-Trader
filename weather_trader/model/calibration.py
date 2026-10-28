@@ -46,6 +46,10 @@ DEFAULT_SIGMA_F = {0: 1.5, 1: 2.3, 2: 2.9, 3: 3.4}
 SIGMA_FLOOR_F = 0.7
 SIGMA_GROWTH_F_PER_HOUR = 0.012
 DEFAULT_BIAS_F = {"high": 0.5, "low": -0.5}
+# Backtests showed the official high beats the hourly reports far more often than once in
+# three days; these priors are replaced per station by `wxbot calibrate`.
+DEFAULT_PEAK_GAP = {0: 0.52, 1: 0.38, 2: 0.08, 3: 0.02}
+DEFAULT_PEAK_GAP_CONFIRMED = {0: 0.85, 1: 0.12, 2: 0.03}
 
 
 def _interp(points: list[tuple[float, float]], x: float, slope_after: float = 0.0) -> float:
@@ -73,6 +77,11 @@ class StationCalibration:
     rmse: dict[str, dict[int, float]] = field(default_factory=dict)
     weights: dict[str, float] = field(default_factory=dict)
     sigma: dict[int, float] = field(default_factory=dict)
+    # How far beyond the hourly reports the official extreme lands, in reading steps:
+    # from hourly readings alone, and once 6-hour max/min groups have confirmed them.
+    peak_gap: dict[int, float] = field(default_factory=dict)
+    peak_gap_confirmed: dict[int, float] = field(default_factory=dict)
+    gap_violations: int = 0  # days the official value was *inside* an observed reading
     n_days: int = 0
     updated: str = ""
 
@@ -98,6 +107,15 @@ class StationCalibration:
         pts = [(0.0, SIGMA_FLOOR_F * self.scale)] + [(LEAD_HOURS[int(k)], v) for k, v in table.items()]
         return _interp(pts, max(lead_hours, 0.0), SIGMA_GROWTH_F_PER_HOUR * self.scale)
 
+    def observed_scenarios(self, extreme: float, confirmed: bool, step: float = 1.0
+                           ) -> tuple[tuple[float, float], ...]:
+        """Where the official extreme may land given the reported one (beyond it, never inside)."""
+        gaps = (self.peak_gap_confirmed or DEFAULT_PEAK_GAP_CONFIRMED) if confirmed else \
+            (self.peak_gap or DEFAULT_PEAK_GAP)
+        sign = 1.0 if self.kind == "high" else -1.0
+        total = sum(gaps.values())
+        return tuple((extreme + sign * int(k) * step, p / total) for k, p in sorted(gaps.items(), key=lambda x: int(x[0])))
+
     def to_json(self) -> str:
         return json.dumps(asdict(self), indent=2, sort_keys=True)
 
@@ -109,6 +127,9 @@ class StationCalibration:
             rmse={m: {int(k): v for k, v in t.items()} for m, t in d.get("rmse", {}).items()},
             weights=d.get("weights", {}),
             sigma={int(k): v for k, v in d.get("sigma", {}).items()},
+            peak_gap={int(k): v for k, v in d.get("peak_gap", {}).items()},
+            peak_gap_confirmed={int(k): v for k, v in d.get("peak_gap_confirmed", {}).items()},
+            gap_violations=d.get("gap_violations", 0),
             n_days=d.get("n_days", 0), updated=d.get("updated", ""),
         )
 

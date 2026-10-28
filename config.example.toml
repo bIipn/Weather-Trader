@@ -24,6 +24,6 @@ require_calibration = false # true = only trade stations with a fitted calibrati
 
 [model]
 tail_weight = 0.15          # share of the fat-tailed error component
-nowcast_p_up = 0.30         # chance the official peak beats the hourly reports by 1°
+# How far the official high lands beyond the hourly reports is calibrated per station.
 max_obs_age_minutes = 100   # stop trading today's market if observations go stale
 use_ensembles = true

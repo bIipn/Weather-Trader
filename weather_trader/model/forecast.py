@@ -63,7 +63,6 @@ class ModelSettings:
     tail_scale: float = 2.5
     ensemble_spread_factor: float = 1.15
     disagreement_factor: float = 0.9
-    nowcast_p_up: float = 0.30
     nowcast_anomaly_hours: float = 4.0
     max_obs_age_minutes: float = 100.0
     min_sources: int = 3
@@ -188,7 +187,6 @@ class Forecaster:
     def intraday(self, station, day, kind, unit, now, start, end, hourly: Hourly, series, cal,
                   sources, mu_full, notes, observations) -> Forecast:
         step = 1.0 if unit == "F" else 0.1
-        sign = 1.0 if kind == "high" else -1.0
         try:
             obs = observations if observations is not None else self.nws.observations(
                 station.code, start - timedelta(hours=1))
@@ -207,14 +205,14 @@ class Forecaster:
                 notes.append(f"observations stale ({age:.0f} min)" if age else "observations stale")
                 tradeable = False
 
-        # Observed extreme as a floor (ceiling for lows), with the between-reports chance.
+        # Observed extreme as a floor (ceiling for lows). Until the 24-hour group arrives the
+        # official value can still land beyond it — by how much is calibrated per station.
         observed: tuple[tuple[float, float], ...] = ()
         if nc and nc.extreme is not None:
-            if nc.exact:
+            if nc.final:
                 observed = ((nc.extreme, 1.0),)
             else:
-                p = self.cfg.nowcast_p_up
-                observed = ((nc.extreme, 1 - p), (nc.extreme + sign * step, p))
+                observed = cal.observed_scenarios(nc.extreme, nc.exact, step)
 
         # Remaining part of the day, anchored on how wrong the models are right now.
         rest = None

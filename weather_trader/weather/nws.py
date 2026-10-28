@@ -89,6 +89,23 @@ def parse_observations(payload: dict) -> list[Observation]:
     return sorted(obs, key=lambda o: o.time)
 
 
+def despike(obs: list[Observation], jump_c: float = 5.5) -> list[Observation]:
+    """Drop isolated sensor glitches: a reading that jumps > ~10°F away from both neighbours.
+
+    A single bad report would otherwise become a false floor for the day — and make the
+    sniper sell a bracket that is still alive.
+    """
+    out = []
+    for i, o in enumerate(obs):
+        prev = obs[i - 1].temp_c if i > 0 else None
+        nxt = obs[i + 1].temp_c if i + 1 < len(obs) else None
+        far = [abs(o.temp_c - n) > jump_c for n in (prev, nxt) if n is not None]
+        if far and all(far):
+            continue
+        out.append(o)
+    return out
+
+
 @dataclass
 class Nowcast:
     kind: str
@@ -135,9 +152,7 @@ def build_nowcast(obs: list[Observation], start: datetime, end: datetime, kind: 
 
     extreme = extreme_time = uncovered = None
     last_time = last_temp = None
-    for o in inside:
-        if o.temp_c is None or o.time >= end:
-            continue
+    for o in despike([o for o in inside if o.temp_c is not None and o.time < end]):
         r = official_reading(o.temp_c, unit)
         last_time, last_temp = o.time, (c_to_f(o.temp_c) if unit == "F" else o.temp_c)
         if extreme is None or better(r, extreme):

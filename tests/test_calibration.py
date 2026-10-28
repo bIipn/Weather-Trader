@@ -40,3 +40,28 @@ def test_sigma_grows_with_lead_time():
     values = [cal.sigma_at(h) for h in (0, 3, 15, 27, 51, 75, 120)]
     assert values == sorted(values)
     assert math.isclose(values[0], 0.7)
+
+
+def test_peak_gap_fit_from_reports(tmp_path):
+    from datetime import timedelta
+
+    from weather_trader.calibrate import fit_peak_gaps
+    from weather_trader.stations import STATIONS, climate_day_window
+    from weather_trader.weather.nws import Observation
+
+    nyc = STATIONS["KNYC"]
+    start = date(2026, 6, 1)
+    obs, actuals = [], {}
+    for i in range(60):
+        d = start + timedelta(days=i)
+        ws, _ = climate_day_window(nyc, d)
+        for h in range(24):
+            f = 70 + (8 if h == 15 else 0)  # hourly reports peak at 78°F
+            obs.append(Observation(ws + timedelta(hours=h, minutes=51), (f - 32) * 5 / 9))
+        actuals[d] = 78 + (1 if i % 3 == 0 else 0)  # official beats the reports one day in three
+    gaps, confirmed, violations = fit_peak_gaps(obs, actuals, nyc, start, start + timedelta(days=59), "high")
+    assert violations == 0
+    assert abs(gaps[1] - 1 / 3) < 0.05 and gaps[0] > gaps[1] > gaps[2]
+    cal = StationCalibration("KNYC", "high", peak_gap=gaps)
+    scen = dict(cal.observed_scenarios(78.0, confirmed=False))
+    assert set(scen) == {78.0, 79.0, 80.0, 81.0} and abs(sum(scen.values()) - 1) < 1e-9
