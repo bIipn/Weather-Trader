@@ -21,9 +21,11 @@ def test_dead_bracket_rules():
     mid = m("B", Bracket("between", 63, 64), 0.40, 0.45)
     top = m("C", Bracket("greater", 66, None), 0.10, 0.12)    # 67 or above
     assert is_dead(low, 64, "high") and not is_dead(mid, 64, "high") and not is_dead(top, 64, "high")
-    # For lows a reading of 40 rules out everything that needs the minimum to be above 40.
-    assert is_dead(m("D", Bracket("between", 41, 42), 0.1, 0.2), 40, "low")
-    assert not is_dead(m("E", Bracket("between", 39, 40), 0.1, 0.2), 40, "low")
+    # One degree of safety margin: a 63° report does not yet kill "62° or below".
+    assert not is_dead(low, 63, "high") and is_dead(low, 63, "high", margin=0.0)
+    # For lows a reading of 40 rules out everything that needs the minimum to be above 41.
+    assert is_dead(m("D", Bracket("between", 42, 43), 0.1, 0.2), 40, "low")
+    assert not is_dead(m("E", Bracket("between", 41, 42), 0.1, 0.2), 40, "low")
 
 
 def test_snipe_sells_only_dead_brackets_with_a_bid():

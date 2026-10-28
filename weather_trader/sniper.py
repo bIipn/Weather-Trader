@@ -36,12 +36,17 @@ def observed_extreme(obs: list[Observation], start: datetime, end: datetime, kin
     return max(vals) if kind == "high" else min(vals)
 
 
-def is_dead(market: WeatherMarket, extreme: float, kind: str) -> bool:
-    """True when the observed extreme already rules this bracket out."""
+def is_dead(market: WeatherMarket, extreme: float, kind: str, margin: float = 1.0) -> bool:
+    """True when the observed extreme already rules this bracket out.
+
+    A year of reports showed the official value landing a degree *inside* an hourly
+    reading on 0-3 days per station (rounding, quality control), so by default a bracket
+    only counts as dead once the reading clears it by more than `margin`.
+    """
     lo, hi = market.bracket.bounds()
     if kind == "high":
-        return hi is not None and hi < extreme
-    return lo is not None and lo > extreme
+        return hi is not None and hi < extreme - margin
+    return lo is not None and lo > extreme + margin
 
 
 def snipe_orders(event: WeatherEvent, extreme: float, cfg: StrategyConfig, min_bid: float = 0.02,
@@ -112,7 +117,7 @@ def run_sniper_backtest(http: Http, settings: Settings, series: list[str], days:
                 if running is not None and ((kind == "high" and r <= running) or (kind == "low" and r >= running)):
                     continue
                 running = r
-                newly = [m for m in ev.markets if m.ticker not in dead and is_dead(m, running, kind)]
+                newly = [m for m in ev.markets if m.ticker not in dead and is_dead(m, running, kind, margin=0.0)]
                 if not newly:
                     continue
                 dead.update(m.ticker for m in newly)
