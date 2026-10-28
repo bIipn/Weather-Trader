@@ -1,0 +1,6642 @@
+[
+  {
+    "event": "KXLOWTCHI-26OCT28",
+    "station": "KMDW",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 54.4,
+    "sigma": 1.66,
+    "lead_hours": 7.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTCHI-26OCT28-T49",
+        "bracket": "\u226448\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTCHI-26OCT28-B49.5",
+        "bracket": "49\u201350\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTCHI-26OCT28-B51.5",
+        "bracket": "51\u201352\u00b0",
+        "bid": null,
+        "ask": 0.03,
+        "model": 0.02,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTCHI-26OCT28-B53.5",
+        "bracket": "53\u201354\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.4601,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTCHI-26OCT28-B55.5",
+        "bracket": "55\u201356\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.5199,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTCHI-26OCT28-T56",
+        "bracket": "\u226557\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTCHI-26OCT29",
+    "station": "KMDW",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 52.17,
+    "sigma": 2.53,
+    "lead_hours": 31.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTCHI-26OCT29-T50",
+        "bracket": "\u226449\u00b0",
+        "bid": 0.22,
+        "ask": 0.33,
+        "model": 0.1104,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTCHI-26OCT29-B50.5",
+        "bracket": "50\u201351\u00b0",
+        "bid": 0.21,
+        "ask": 0.23,
+        "model": 0.2638,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTCHI-26OCT29-B52.5",
+        "bracket": "52\u201353\u00b0",
+        "bid": 0.23,
+        "ask": 0.39,
+        "model": 0.3624,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTCHI-26OCT29-B54.5",
+        "bracket": "54\u201355\u00b0",
+        "bid": 0.09,
+        "ask": 0.21,
+        "model": 0.1938,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTCHI-26OCT29-B56.5",
+        "bracket": "56\u201357\u00b0",
+        "bid": 0.02,
+        "ask": 0.05,
+        "model": 0.048,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTCHI-26OCT29-T57",
+        "bracket": "\u226558\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0216,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTSATX-26OCT28",
+    "station": "KSAT",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 82.63,
+    "sigma": 1.15,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTSATX-26OCT28-T81",
+        "bracket": "\u226480\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTSATX-26OCT28-B81.5",
+        "bracket": "81\u201382\u00b0",
+        "bid": 0.71,
+        "ask": 0.79,
+        "model": 0.5063,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSATX-26OCT28-B83.5",
+        "bracket": "83\u201384\u00b0",
+        "bid": 0.22,
+        "ask": 0.25,
+        "model": 0.4701,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSATX-26OCT28-B85.5",
+        "bracket": "85\u201386\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0233,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSATX-26OCT28-B87.5",
+        "bracket": "87\u201388\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0003,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSATX-26OCT28-T88",
+        "bracket": "\u226589\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTSATX-26OCT29",
+    "station": "KSAT",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 74.96,
+    "sigma": 3.17,
+    "lead_hours": 23.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTSATX-26OCT29-T76",
+        "bracket": "\u226475\u00b0",
+        "bid": 0.74,
+        "ask": 0.76,
+        "model": 0.582,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSATX-26OCT29-B76.5",
+        "bracket": "76\u201377\u00b0",
+        "bid": 0.19,
+        "ask": 0.2,
+        "model": 0.2469,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSATX-26OCT29-B78.5",
+        "bracket": "78\u201379\u00b0",
+        "bid": 0.06,
+        "ask": 0.07,
+        "model": 0.114,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSATX-26OCT29-B80.5",
+        "bracket": "80\u201381\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0342,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSATX-26OCT29-B82.5",
+        "bracket": "82\u201383\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0114,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSATX-26OCT29-T83",
+        "bracket": "\u226584\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0114,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTLV-26OCT28",
+    "station": "KLAS",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 79.34,
+    "sigma": 1.21,
+    "lead_hours": 1.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTLV-26OCT28-T74",
+        "bracket": "\u226473\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTLV-26OCT28-B74.5",
+        "bracket": "74\u201375\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTLV-26OCT28-B76.5",
+        "bracket": "76\u201377\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0288,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTLV-26OCT28-B78.5",
+        "bracket": "78\u201379\u00b0",
+        "bid": 0.13,
+        "ask": 0.21,
+        "model": 0.5574,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTLV-26OCT28-B80.5",
+        "bracket": "80\u201381\u00b0",
+        "bid": 0.8,
+        "ask": 0.85,
+        "model": 0.3843,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTLV-26OCT28-T81",
+        "bracket": "\u226582\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0296,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTLV-26OCT29",
+    "station": "KLAS",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 75.25,
+    "sigma": 2.26,
+    "lead_hours": 25.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTLV-26OCT29-T74",
+        "bracket": "\u226473\u00b0",
+        "bid": 0.01,
+        "ask": 0.03,
+        "model": 0.1793,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTLV-26OCT29-B74.5",
+        "bracket": "74\u201375\u00b0",
+        "bid": 0.12,
+        "ask": 0.15,
+        "model": 0.3746,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTLV-26OCT29-B76.5",
+        "bracket": "76\u201377\u00b0",
+        "bid": 0.66,
+        "ask": 0.67,
+        "model": 0.3235,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTLV-26OCT29-B78.5",
+        "bracket": "78\u201379\u00b0",
+        "bid": 0.16,
+        "ask": 0.17,
+        "model": 0.0938,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTLV-26OCT29-B80.5",
+        "bracket": "80\u201381\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.0182,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTLV-26OCT29-T81",
+        "bracket": "\u226582\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0106,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTOKC-26OCT28",
+    "station": "KOKC",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 81.63,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTOKC-26OCT28-T78",
+        "bracket": "\u226477\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTOKC-26OCT28-B78.5",
+        "bracket": "78\u201379\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTOKC-26OCT28-B80.5",
+        "bracket": "80\u201381\u00b0",
+        "bid": 0.96,
+        "ask": 0.98,
+        "model": 0.5046,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTOKC-26OCT28-B82.5",
+        "bracket": "82\u201383\u00b0",
+        "bid": 0.02,
+        "ask": 0.04,
+        "model": 0.4729,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTOKC-26OCT28-B84.5",
+        "bracket": "84\u201385\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0224,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTOKC-26OCT28-T85",
+        "bracket": "\u226586\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0001,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTOKC-26OCT29",
+    "station": "KOKC",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 81.18,
+    "sigma": 2.16,
+    "lead_hours": 22.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTOKC-26OCT29-T80",
+        "bracket": "\u226479\u00b0",
+        "bid": 0.07,
+        "ask": 0.08,
+        "model": 0.1779,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTOKC-26OCT29-B80.5",
+        "bracket": "80\u201381\u00b0",
+        "bid": 0.4,
+        "ask": 0.41,
+        "model": 0.3933,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTOKC-26OCT29-B82.5",
+        "bracket": "82\u201383\u00b0",
+        "bid": 0.38,
+        "ask": 0.42,
+        "model": 0.3218,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTOKC-26OCT29-B84.5",
+        "bracket": "84\u201385\u00b0",
+        "bid": 0.07,
+        "ask": 0.08,
+        "model": 0.0824,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTOKC-26OCT29-B86.5",
+        "bracket": "86\u201387\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0158,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTOKC-26OCT29-T87",
+        "bracket": "\u226588\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0089,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTNYC-26OCT28",
+    "station": "KNYC",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 44.81,
+    "sigma": 1.96,
+    "lead_hours": 6.9,
+    "phase": "live",
+    "tradeable": false,
+    "notes": [
+      "observations stale (134 min)"
+    ],
+    "markets": [
+      {
+        "ticker": "KXLOWTNYC-26OCT28-T43",
+        "bracket": "\u226442\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0008,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNYC-26OCT28-B43.5",
+        "bracket": "43\u201344\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.1521,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNYC-26OCT28-B45.5",
+        "bracket": "45\u201346\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.8471,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNYC-26OCT28-B47.5",
+        "bracket": "47\u201348\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXLOWTNYC-26OCT28-B49.5",
+        "bracket": "49\u201350\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXLOWTNYC-26OCT28-T50",
+        "bracket": "\u226551\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTNYC-26OCT29",
+    "station": "KNYC",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 47.0,
+    "sigma": 2.37,
+    "lead_hours": 13.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTNYC-26OCT29-T47",
+        "bracket": "\u226446\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.3988,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNYC-26OCT29-B47.5",
+        "bracket": "47\u201348\u00b0",
+        "bid": 0.1,
+        "ask": 0.15,
+        "model": 0.3774,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNYC-26OCT29-B49.5",
+        "bracket": "49\u201350\u00b0",
+        "bid": 0.46,
+        "ask": 0.53,
+        "model": 0.1711,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNYC-26OCT29-B51.5",
+        "bracket": "51\u201352\u00b0",
+        "bid": 0.22,
+        "ask": 0.27,
+        "model": 0.0358,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNYC-26OCT29-B53.5",
+        "bracket": "53\u201354\u00b0",
+        "bid": 0.02,
+        "ask": 0.04,
+        "model": 0.0101,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNYC-26OCT29-T54",
+        "bracket": "\u226555\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0068,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTTTN-26OCT28",
+    "station": "KTTN",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 64.6,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTTTN-26OCT28-T63",
+        "bracket": "\u226462\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTTTN-26OCT28-B63.5",
+        "bracket": "63\u201364\u00b0",
+        "bid": 0.6,
+        "ask": 0.99,
+        "model": 0.5199,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTTTN-26OCT28-B65.5",
+        "bracket": "65\u201366\u00b0",
+        "bid": 0.01,
+        "ask": 0.44,
+        "model": 0.4601,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTTTN-26OCT28-B67.5",
+        "bracket": "67\u201368\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.02,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTTTN-26OCT28-B69.5",
+        "bracket": "69\u201370\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTTTN-26OCT28-T70",
+        "bracket": "\u226571\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTTTN-26OCT29",
+    "station": "KTTN",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 68.14,
+    "sigma": 2.16,
+    "lead_hours": 22.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTTTN-26OCT29-T68",
+        "bracket": "\u226467\u00b0",
+        "bid": 0.02,
+        "ask": 0.06,
+        "model": 0.3591,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTTTN-26OCT29-B68.5",
+        "bracket": "68\u201369\u00b0",
+        "bid": 0.59,
+        "ask": 0.66,
+        "model": 0.4147,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTTTN-26OCT29-B70.5",
+        "bracket": "70\u201371\u00b0",
+        "bid": 0.29,
+        "ask": 0.4,
+        "model": 0.1795,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTTTN-26OCT29-B72.5",
+        "bracket": "72\u201373\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0324,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTTTN-26OCT29-B74.5",
+        "bracket": "74\u201375\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0091,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTTTN-26OCT29-T75",
+        "bracket": "\u226576\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0052,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHCHI-26OCT28",
+    "station": "KMDW",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 75.63,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHCHI-26OCT28-T72",
+        "bracket": "\u226471\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHCHI-26OCT28-B72.5",
+        "bracket": "72\u201373\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHCHI-26OCT28-B74.5",
+        "bracket": "74\u201375\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.5042,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHCHI-26OCT28-B76.5",
+        "bracket": "76\u201377\u00b0",
+        "bid": 0.97,
+        "ask": 0.99,
+        "model": 0.4733,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHCHI-26OCT28-B78.5",
+        "bracket": "78\u201379\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0224,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHCHI-26OCT28-T79",
+        "bracket": "\u226580\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0001,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHCHI-26OCT29",
+    "station": "KMDW",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 68.42,
+    "sigma": 2.1,
+    "lead_hours": 20.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHCHI-26OCT29-T68",
+        "bracket": "\u226467\u00b0",
+        "bid": 0.11,
+        "ask": 0.12,
+        "model": 0.2984,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHCHI-26OCT29-B68.5",
+        "bracket": "68\u201369\u00b0",
+        "bid": 0.26,
+        "ask": 0.27,
+        "model": 0.4345,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHCHI-26OCT29-B70.5",
+        "bracket": "70\u201371\u00b0",
+        "bid": 0.45,
+        "ask": 0.48,
+        "model": 0.2137,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHCHI-26OCT29-B72.5",
+        "bracket": "72\u201373\u00b0",
+        "bid": 0.14,
+        "ask": 0.15,
+        "model": 0.0383,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHCHI-26OCT29-B74.5",
+        "bracket": "74\u201375\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0098,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHCHI-26OCT29-T75",
+        "bracket": "\u226576\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0053,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTDEN-26OCT28",
+    "station": "KDEN",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 38.38,
+    "sigma": 2.63,
+    "lead_hours": 8.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTDEN-26OCT28-T35",
+        "bracket": "\u226434\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0014,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDEN-26OCT28-B35.5",
+        "bracket": "35\u201336\u00b0",
+        "bid": null,
+        "ask": 0.03,
+        "model": 0.0224,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDEN-26OCT28-B37.5",
+        "bracket": "37\u201338\u00b0",
+        "bid": 0.02,
+        "ask": 0.11,
+        "model": 0.4611,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDEN-26OCT28-B39.5",
+        "bracket": "39\u201340\u00b0",
+        "bid": 0.87,
+        "ask": 0.96,
+        "model": 0.5152,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDEN-26OCT28-B41.5",
+        "bracket": "41\u201342\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXLOWTDEN-26OCT28-T42",
+        "bracket": "\u226543\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTDEN-26OCT29",
+    "station": "KDEN",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 37.57,
+    "sigma": 3.11,
+    "lead_hours": 15.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTDEN-26OCT29-T33",
+        "bracket": "\u226432\u00b0",
+        "bid": 0.01,
+        "ask": 0.04,
+        "model": 0.0411,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDEN-26OCT29-B33.5",
+        "bracket": "33\u201334\u00b0",
+        "bid": 0.07,
+        "ask": 0.13,
+        "model": 0.083,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDEN-26OCT29-B35.5",
+        "bracket": "35\u201336\u00b0",
+        "bid": 0.26,
+        "ask": 0.3,
+        "model": 0.2143,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDEN-26OCT29-B37.5",
+        "bracket": "37\u201338\u00b0",
+        "bid": 0.25,
+        "ask": 0.32,
+        "model": 0.3034,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDEN-26OCT29-B39.5",
+        "bracket": "39\u201340\u00b0",
+        "bid": 0.17,
+        "ask": 0.24,
+        "model": 0.224,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDEN-26OCT29-T40",
+        "bracket": "\u226541\u00b0",
+        "bid": 0.03,
+        "ask": 0.06,
+        "model": 0.1341,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTMIN-26OCT28",
+    "station": "KMSP",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 72.6,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTMIN-26OCT28-T66",
+        "bracket": "\u226465\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTMIN-26OCT28-B66.5",
+        "bracket": "66\u201367\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTMIN-26OCT28-B68.5",
+        "bracket": "68\u201369\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTMIN-26OCT28-B70.5",
+        "bracket": "70\u201371\u00b0",
+        "bid": 0.83,
+        "ask": 0.9,
+        "model": 0.0,
+        "signal": {
+          "side": "no",
+          "price": 0.17,
+          "count": 6,
+          "style": "take",
+          "edge": 0.82
+        },
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTMIN-26OCT28-B72.5",
+        "bracket": "72\u201373\u00b0",
+        "bid": 0.12,
+        "ask": 0.19,
+        "model": 0.8998,
+        "signal": null,
+        "skip": "model/market gap 37%"
+      },
+      {
+        "ticker": "KXHIGHTMIN-26OCT28-T73",
+        "bracket": "\u226574\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.1002,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTMIN-26OCT29",
+    "station": "KMSP",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 54.2,
+    "sigma": 2.2,
+    "lead_hours": 23.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTMIN-26OCT29-T56",
+        "bracket": "\u226455\u00b0",
+        "bid": 0.24,
+        "ask": 0.25,
+        "model": 0.7613,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTMIN-26OCT29-B56.5",
+        "bracket": "56\u201357\u00b0",
+        "bid": 0.47,
+        "ask": 0.54,
+        "model": 0.1881,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTMIN-26OCT29-B58.5",
+        "bracket": "58\u201359\u00b0",
+        "bid": 0.24,
+        "ask": 0.25,
+        "model": 0.0353,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTMIN-26OCT29-B60.5",
+        "bracket": "60\u201361\u00b0",
+        "bid": 0.02,
+        "ask": 0.04,
+        "model": 0.0096,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTMIN-26OCT29-B62.5",
+        "bracket": "62\u201363\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0039,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTMIN-26OCT29-T63",
+        "bracket": "\u226564\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0018,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTHOU-26OCT28",
+    "station": "KHOU",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 68.39,
+    "sigma": 1.66,
+    "lead_hours": 7.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTHOU-26OCT28-T63",
+        "bracket": "\u226462\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0023,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTHOU-26OCT28-B63.5",
+        "bracket": "63\u201364\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0073,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTHOU-26OCT28-B65.5",
+        "bracket": "65\u201366\u00b0",
+        "bid": 0.02,
+        "ask": 0.07,
+        "model": 0.0302,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTHOU-26OCT28-B67.5",
+        "bracket": "67\u201368\u00b0",
+        "bid": 0.12,
+        "ask": 0.19,
+        "model": 0.3591,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTHOU-26OCT28-B69.5",
+        "bracket": "69\u201370\u00b0",
+        "bid": 0.8,
+        "ask": 0.87,
+        "model": 0.6011,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTHOU-26OCT28-T70",
+        "bracket": "\u226571\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTHOU-26OCT29",
+    "station": "KHOU",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 65.82,
+    "sigma": 1.89,
+    "lead_hours": 13.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTHOU-26OCT29-T59",
+        "bracket": "\u226458\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0029,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTHOU-26OCT29-B59.5",
+        "bracket": "59\u201360\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0071,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTHOU-26OCT29-B61.5",
+        "bracket": "61\u201362\u00b0",
+        "bid": 0.01,
+        "ask": 0.03,
+        "model": 0.024,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTHOU-26OCT29-B63.5",
+        "bracket": "63\u201364\u00b0",
+        "bid": 0.06,
+        "ask": 0.15,
+        "model": 0.1674,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTHOU-26OCT29-B65.5",
+        "bracket": "65\u201366\u00b0",
+        "bid": 0.39,
+        "ask": 0.46,
+        "model": 0.4665,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTHOU-26OCT29-T66",
+        "bracket": "\u226567\u00b0",
+        "bid": 0.38,
+        "ask": 0.49,
+        "model": 0.3322,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTSFO-26OCT28",
+    "station": "KSFO",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 67.53,
+    "sigma": 1.21,
+    "lead_hours": 1.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTSFO-26OCT28-T63",
+        "bracket": "\u226462\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTSFO-26OCT28-B63.5",
+        "bracket": "63\u201364\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTSFO-26OCT28-B65.5",
+        "bracket": "65\u201366\u00b0",
+        "bid": 0.02,
+        "ask": 0.05,
+        "model": 0.1175,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSFO-26OCT28-B67.5",
+        "bracket": "67\u201368\u00b0",
+        "bid": 0.43,
+        "ask": 0.45,
+        "model": 0.7487,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSFO-26OCT28-B69.5",
+        "bracket": "69\u201370\u00b0",
+        "bid": 0.51,
+        "ask": 0.54,
+        "model": 0.1223,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSFO-26OCT28-T70",
+        "bracket": "\u226571\u00b0",
+        "bid": 0.03,
+        "ask": 0.04,
+        "model": 0.0115,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTSFO-26OCT29",
+    "station": "KSFO",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 66.67,
+    "sigma": 2.23,
+    "lead_hours": 24.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTSFO-26OCT29-T63",
+        "bracket": "\u226462\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0291,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSFO-26OCT29-B63.5",
+        "bracket": "63\u201364\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0983,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSFO-26OCT29-B65.5",
+        "bracket": "65\u201366\u00b0",
+        "bid": 0.11,
+        "ask": 0.14,
+        "model": 0.3357,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSFO-26OCT29-B67.5",
+        "bracket": "67\u201368\u00b0",
+        "bid": 0.56,
+        "ask": 0.57,
+        "model": 0.3715,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSFO-26OCT29-B69.5",
+        "bracket": "69\u201370\u00b0",
+        "bid": 0.22,
+        "ask": 0.25,
+        "model": 0.1293,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSFO-26OCT29-T70",
+        "bracket": "\u226571\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.0361,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTSDF-26OCT28",
+    "station": "KSDF",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 51.39,
+    "sigma": 2.53,
+    "lead_hours": 6.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTSDF-26OCT28-T46",
+        "bracket": "\u226445\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0003,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSDF-26OCT28-B46.5",
+        "bracket": "46\u201347\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0007,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSDF-26OCT28-B48.5",
+        "bracket": "48\u201349\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0219,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSDF-26OCT28-B50.5",
+        "bracket": "50\u201351\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.4611,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSDF-26OCT28-B52.5",
+        "bracket": "52\u201353\u00b0",
+        "bid": 0.96,
+        "ask": 0.97,
+        "model": 0.516,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSDF-26OCT28-T53",
+        "bracket": "\u226554\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTSDF-26OCT29",
+    "station": "KSDF",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 51.6,
+    "sigma": 2.11,
+    "lead_hours": 14.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTSDF-26OCT29-T45",
+        "bracket": "\u226444\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0054,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSDF-26OCT29-B45.5",
+        "bracket": "45\u201346\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0098,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSDF-26OCT29-B47.5",
+        "bracket": "47\u201348\u00b0",
+        "bid": 0.02,
+        "ask": 0.1,
+        "model": 0.0382,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSDF-26OCT29-B49.5",
+        "bracket": "49\u201350\u00b0",
+        "bid": 0.1,
+        "ask": 0.23,
+        "model": 0.212,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSDF-26OCT29-B51.5",
+        "bracket": "51\u201352\u00b0",
+        "bid": 0.32,
+        "ask": 0.46,
+        "model": 0.4327,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSDF-26OCT29-T52",
+        "bracket": "\u226553\u00b0",
+        "bid": 0.24,
+        "ask": 0.35,
+        "model": 0.3019,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTEWR-26OCT28",
+    "station": "KEWR",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 42.82,
+    "sigma": 2.14,
+    "lead_hours": 6.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTEWR-26OCT28-T37",
+        "bracket": "\u226436\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTEWR-26OCT28-B37.5",
+        "bracket": "37\u201338\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0001,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTEWR-26OCT28-B39.5",
+        "bracket": "39\u201340\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0003,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTEWR-26OCT28-B41.5",
+        "bracket": "41\u201342\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.151,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTEWR-26OCT28-B43.5",
+        "bracket": "43\u201344\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.8487,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTEWR-26OCT28-T44",
+        "bracket": "\u226545\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTEWR-26OCT29",
+    "station": "KEWR",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 47.23,
+    "sigma": 2.67,
+    "lead_hours": 13.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTEWR-26OCT29-T42",
+        "bracket": "\u226441\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0206,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTEWR-26OCT29-B42.5",
+        "bracket": "42\u201343\u00b0",
+        "bid": 0.02,
+        "ask": 0.1,
+        "model": 0.0397,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTEWR-26OCT29-B44.5",
+        "bracket": "44\u201345\u00b0",
+        "bid": 0.17,
+        "ask": 0.33,
+        "model": 0.1581,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTEWR-26OCT29-B46.5",
+        "bracket": "46\u201347\u00b0",
+        "bid": 0.33,
+        "ask": 0.46,
+        "model": 0.3298,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTEWR-26OCT29-B48.5",
+        "bracket": "48\u201349\u00b0",
+        "bid": 0.12,
+        "ask": 0.28,
+        "model": 0.294,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTEWR-26OCT29-T49",
+        "bracket": "\u226550\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.1579,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTPHX-26OCT28",
+    "station": "KPHX",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 83.59,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTPHX-26OCT28-T84",
+        "bracket": "\u226483\u00b0",
+        "bid": 0.07,
+        "ask": 0.13,
+        "model": 0.486,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTPHX-26OCT28-B84.5",
+        "bracket": "84\u201385\u00b0",
+        "bid": 0.49,
+        "ask": 0.62,
+        "model": 0.4947,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTPHX-26OCT28-B86.5",
+        "bracket": "86\u201387\u00b0",
+        "bid": 0.33,
+        "ask": 0.45,
+        "model": 0.0177,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTPHX-26OCT28-B88.5",
+        "bracket": "88\u201389\u00b0",
+        "bid": 0.03,
+        "ask": 0.04,
+        "model": 0.0015,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTPHX-26OCT28-B90.5",
+        "bracket": "90\u201391\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTPHX-26OCT28-T91",
+        "bracket": "\u226592\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTPHX-26OCT29",
+    "station": "KPHX",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 85.19,
+    "sigma": 2.23,
+    "lead_hours": 24.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTPHX-26OCT29-T84",
+        "bracket": "\u226483\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.1838,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTPHX-26OCT29-B84.5",
+        "bracket": "84\u201385\u00b0",
+        "bid": 0.04,
+        "ask": 0.05,
+        "model": 0.3836,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTPHX-26OCT29-B86.5",
+        "bracket": "86\u201387\u00b0",
+        "bid": 0.52,
+        "ask": 0.54,
+        "model": 0.3187,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTPHX-26OCT29-B88.5",
+        "bracket": "88\u201389\u00b0",
+        "bid": 0.37,
+        "ask": 0.41,
+        "model": 0.0872,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTPHX-26OCT29-B90.5",
+        "bracket": "90\u201391\u00b0",
+        "bid": 0.03,
+        "ask": 0.04,
+        "model": 0.0169,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTPHX-26OCT29-T91",
+        "bracket": "\u226592\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0098,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHAUS-26OCT28",
+    "station": "KAUS",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 81.6,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHAUS-26OCT28-T82",
+        "bracket": "\u226481\u00b0",
+        "bid": 0.93,
+        "ask": 0.95,
+        "model": 0.5199,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHAUS-26OCT28-B82.5",
+        "bracket": "82\u201383\u00b0",
+        "bid": 0.02,
+        "ask": 0.07,
+        "model": 0.4601,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHAUS-26OCT28-B84.5",
+        "bracket": "84\u201385\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.02,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHAUS-26OCT28-B86.5",
+        "bracket": "86\u201387\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHAUS-26OCT28-B88.5",
+        "bracket": "88\u201389\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHAUS-26OCT28-T89",
+        "bracket": "\u226590\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHAUS-26OCT29",
+    "station": "KAUS",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 77.35,
+    "sigma": 3.74,
+    "lead_hours": 22.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHAUS-26OCT29-T77",
+        "bracket": "\u226476\u00b0",
+        "bid": 0.59,
+        "ask": 0.6,
+        "model": 0.3908,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHAUS-26OCT29-B77.5",
+        "bracket": "77\u201378\u00b0",
+        "bid": 0.17,
+        "ask": 0.19,
+        "model": 0.254,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHAUS-26OCT29-B79.5",
+        "bracket": "79\u201380\u00b0",
+        "bid": 0.1,
+        "ask": 0.11,
+        "model": 0.1953,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHAUS-26OCT29-B81.5",
+        "bracket": "81\u201382\u00b0",
+        "bid": 0.06,
+        "ask": 0.07,
+        "model": 0.0972,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHAUS-26OCT29-B83.5",
+        "bracket": "83\u201384\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.0351,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHAUS-26OCT29-T84",
+        "bracket": "\u226585\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0276,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTDAL-26OCT28",
+    "station": "KDFW",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 59.82,
+    "sigma": 1.66,
+    "lead_hours": 7.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTDAL-26OCT28-T57",
+        "bracket": "\u226456\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDAL-26OCT28-B57.5",
+        "bracket": "57\u201358\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.03,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDAL-26OCT28-B59.5",
+        "bracket": "59\u201360\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.97,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDAL-26OCT28-B61.5",
+        "bracket": "61\u201362\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXLOWTDAL-26OCT28-B63.5",
+        "bracket": "63\u201364\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXLOWTDAL-26OCT28-T64",
+        "bracket": "\u226565\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTDAL-26OCT29",
+    "station": "KDFW",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 67.47,
+    "sigma": 1.93,
+    "lead_hours": 15.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTDAL-26OCT29-T61",
+        "bracket": "\u226460\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.004,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDAL-26OCT29-B61.5",
+        "bracket": "61\u201362\u00b0",
+        "bid": 0.01,
+        "ask": 0.03,
+        "model": 0.0089,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDAL-26OCT29-B63.5",
+        "bracket": "63\u201364\u00b0",
+        "bid": 0.03,
+        "ask": 0.06,
+        "model": 0.0348,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDAL-26OCT29-B65.5",
+        "bracket": "65\u201366\u00b0",
+        "bid": 0.25,
+        "ask": 0.35,
+        "model": 0.2247,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDAL-26OCT29-B67.5",
+        "bracket": "67\u201368\u00b0",
+        "bid": 0.35,
+        "ask": 0.46,
+        "model": 0.4674,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDAL-26OCT29-T68",
+        "bracket": "\u226569\u00b0",
+        "bid": 0.21,
+        "ask": 0.39,
+        "model": 0.2603,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTMIN-26OCT28",
+    "station": "KMSP",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 52.58,
+    "sigma": 1.66,
+    "lead_hours": 7.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTMIN-26OCT28-T43",
+        "bracket": "\u226442\u00b0",
+        "bid": 0.01,
+        "ask": 0.06,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIN-26OCT28-B43.5",
+        "bracket": "43\u201344\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0002,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIN-26OCT28-B45.5",
+        "bracket": "45\u201346\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0011,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIN-26OCT28-B47.5",
+        "bracket": "47\u201348\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0049,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIN-26OCT28-B49.5",
+        "bracket": "49\u201350\u00b0",
+        "bid": 0.13,
+        "ask": 0.25,
+        "model": 0.0171,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIN-26OCT28-T50",
+        "bracket": "\u226551\u00b0",
+        "bid": 0.7,
+        "ask": 0.81,
+        "model": 0.9767,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTMIN-26OCT29",
+    "station": "KMSP",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 42.56,
+    "sigma": 2.23,
+    "lead_hours": 15.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTMIN-26OCT29-T38",
+        "bracket": "\u226437\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0179,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIN-26OCT29-B38.5",
+        "bracket": "38\u201339\u00b0",
+        "bid": 0.02,
+        "ask": 0.1,
+        "model": 0.0451,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIN-26OCT29-B40.5",
+        "bracket": "40\u201341\u00b0",
+        "bid": 0.21,
+        "ask": 0.29,
+        "model": 0.2197,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIN-26OCT29-B42.5",
+        "bracket": "42\u201343\u00b0",
+        "bid": 0.38,
+        "ask": 0.43,
+        "model": 0.4112,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIN-26OCT29-B44.5",
+        "bracket": "44\u201345\u00b0",
+        "bid": 0.16,
+        "ask": 0.3,
+        "model": 0.2364,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIN-26OCT29-T45",
+        "bracket": "\u226546\u00b0",
+        "bid": 0.03,
+        "ask": 0.06,
+        "model": 0.0696,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTNOLA-26OCT28",
+    "station": "KMSY",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 59.61,
+    "sigma": 3.62,
+    "lead_hours": 7.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTNOLA-26OCT28-T54",
+        "bracket": "\u226453\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0087,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNOLA-26OCT28-B54.5",
+        "bracket": "54\u201355\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.007,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNOLA-26OCT28-B56.5",
+        "bracket": "56\u201357\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0146,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNOLA-26OCT28-B58.5",
+        "bracket": "58\u201359\u00b0",
+        "bid": 0.12,
+        "ask": 0.22,
+        "model": 0.1817,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNOLA-26OCT28-B60.5",
+        "bracket": "60\u201361\u00b0",
+        "bid": 0.72,
+        "ask": 0.9,
+        "model": 0.788,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNOLA-26OCT28-T61",
+        "bracket": "\u226562\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTNOLA-26OCT29",
+    "station": "KMSY",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 60.81,
+    "sigma": 2.21,
+    "lead_hours": 14.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTNOLA-26OCT29-T54",
+        "bracket": "\u226453\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0058,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNOLA-26OCT29-B54.5",
+        "bracket": "54\u201355\u00b0",
+        "bid": 0.01,
+        "ask": 0.03,
+        "model": 0.0097,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNOLA-26OCT29-B56.5",
+        "bracket": "56\u201357\u00b0",
+        "bid": 0.05,
+        "ask": 0.19,
+        "model": 0.0354,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNOLA-26OCT29-B58.5",
+        "bracket": "58\u201359\u00b0",
+        "bid": 0.28,
+        "ask": 0.43,
+        "model": 0.1869,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNOLA-26OCT29-B60.5",
+        "bracket": "60\u201361\u00b0",
+        "bid": 0.29,
+        "ask": 0.45,
+        "model": 0.4093,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTNOLA-26OCT29-T61",
+        "bracket": "\u226562\u00b0",
+        "bid": 0.05,
+        "ask": 0.21,
+        "model": 0.353,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTEWR-26OCT28",
+    "station": "KEWR",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 63.6,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTEWR-26OCT28-T61",
+        "bracket": "\u226460\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTEWR-26OCT28-B61.5",
+        "bracket": "61\u201362\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTEWR-26OCT28-B63.5",
+        "bracket": "63\u201364\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.9,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTEWR-26OCT28-B65.5",
+        "bracket": "65\u201366\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.1,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTEWR-26OCT28-B67.5",
+        "bracket": "67\u201368\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTEWR-26OCT28-T68",
+        "bracket": "\u226569\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTEWR-26OCT29",
+    "station": "KEWR",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 68.88,
+    "sigma": 2.13,
+    "lead_hours": 21.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTEWR-26OCT29-T69",
+        "bracket": "\u226468\u00b0",
+        "bid": 0.05,
+        "ask": 0.12,
+        "model": 0.4133,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTEWR-26OCT29-B69.5",
+        "bracket": "69\u201370\u00b0",
+        "bid": 0.53,
+        "ask": 0.62,
+        "model": 0.4034,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTEWR-26OCT29-B71.5",
+        "bracket": "71\u201372\u00b0",
+        "bid": 0.21,
+        "ask": 0.27,
+        "model": 0.1462,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTEWR-26OCT29-B73.5",
+        "bracket": "73\u201374\u00b0",
+        "bid": 0.01,
+        "ask": 0.03,
+        "model": 0.0251,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTEWR-26OCT29-B75.5",
+        "bracket": "75\u201376\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0079,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTEWR-26OCT29-T76",
+        "bracket": "\u226577\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0042,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTDAL-26OCT28",
+    "station": "KDFW",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 82.9,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTDAL-26OCT28-T82",
+        "bracket": "\u226481\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTDAL-26OCT28-B82.5",
+        "bracket": "82\u201383\u00b0",
+        "bid": 0.93,
+        "ask": 0.97,
+        "model": 0.8315,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDAL-26OCT28-B84.5",
+        "bracket": "84\u201385\u00b0",
+        "bid": 0.01,
+        "ask": 0.05,
+        "model": 0.1633,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDAL-26OCT28-B86.5",
+        "bracket": "86\u201387\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.005,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDAL-26OCT28-B88.5",
+        "bracket": "88\u201389\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0002,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDAL-26OCT28-T89",
+        "bracket": "\u226590\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTDAL-26OCT29",
+    "station": "KDFW",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 80.95,
+    "sigma": 2.31,
+    "lead_hours": 23.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTDAL-26OCT29-T81",
+        "bracket": "\u226480\u00b0",
+        "bid": 0.7,
+        "ask": 0.71,
+        "model": 0.4064,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDAL-26OCT29-B81.5",
+        "bracket": "81\u201382\u00b0",
+        "bid": 0.24,
+        "ask": 0.25,
+        "model": 0.3819,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDAL-26OCT29-B83.5",
+        "bracket": "83\u201384\u00b0",
+        "bid": 0.03,
+        "ask": 0.04,
+        "model": 0.1636,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDAL-26OCT29-B85.5",
+        "bracket": "85\u201386\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0325,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDAL-26OCT29-B87.5",
+        "bracket": "87\u201388\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0095,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDAL-26OCT29-T88",
+        "bracket": "\u226589\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0061,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHMIA-26OCT28",
+    "station": "KMIA",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 88.6,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHMIA-26OCT28-T82",
+        "bracket": "\u226481\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHMIA-26OCT28-B82.5",
+        "bracket": "82\u201383\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHMIA-26OCT28-B84.5",
+        "bracket": "84\u201385\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHMIA-26OCT28-B86.5",
+        "bracket": "86\u201387\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHMIA-26OCT28-B88.5",
+        "bracket": "88\u201389\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.9,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHMIA-26OCT28-T89",
+        "bracket": "\u226590\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.1,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHMIA-26OCT29",
+    "station": "KMIA",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 85.74,
+    "sigma": 2.1,
+    "lead_hours": 20.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHMIA-26OCT29-T83",
+        "bracket": "\u226482\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0472,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHMIA-26OCT29-B83.5",
+        "bracket": "83\u201384\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.1916,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHMIA-26OCT29-B85.5",
+        "bracket": "85\u201386\u00b0",
+        "bid": 0.3,
+        "ask": 0.31,
+        "model": 0.4308,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHMIA-26OCT29-B87.5",
+        "bracket": "87\u201388\u00b0",
+        "bid": 0.64,
+        "ask": 0.65,
+        "model": 0.2609,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHMIA-26OCT29-B89.5",
+        "bracket": "89\u201390\u00b0",
+        "bid": 0.04,
+        "ask": 0.05,
+        "model": 0.0516,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHMIA-26OCT29-T90",
+        "bracket": "\u226591\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0179,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTSDF-26OCT28",
+    "station": "KSDF",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 79.6,
+    "sigma": 1.0,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTSDF-26OCT28-T75",
+        "bracket": "\u226474\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTSDF-26OCT28-B75.5",
+        "bracket": "75\u201376\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTSDF-26OCT28-B77.5",
+        "bracket": "77\u201378\u00b0",
+        "bid": 0.6,
+        "ask": 0.99,
+        "model": 0.0,
+        "signal": {
+          "side": "no",
+          "price": 0.4,
+          "count": 12,
+          "style": "take",
+          "edge": 0.5825
+        },
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTSDF-26OCT28-B79.5",
+        "bracket": "79\u201380\u00b0",
+        "bid": 0.02,
+        "ask": 0.41,
+        "model": 0.8998,
+        "signal": null,
+        "skip": "model/market gap 34%"
+      },
+      {
+        "ticker": "KXHIGHTSDF-26OCT28-B81.5",
+        "bracket": "81\u201382\u00b0",
+        "bid": null,
+        "ask": 0.03,
+        "model": 0.1002,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSDF-26OCT28-T82",
+        "bracket": "\u226583\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTSDF-26OCT29",
+    "station": "KSDF",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 77.2,
+    "sigma": 2.16,
+    "lead_hours": 22.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTSDF-26OCT29-T77",
+        "bracket": "\u226476\u00b0",
+        "bid": 0.03,
+        "ask": 0.09,
+        "model": 0.3467,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSDF-26OCT29-B77.5",
+        "bracket": "77\u201378\u00b0",
+        "bid": 0.25,
+        "ask": 0.37,
+        "model": 0.4173,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSDF-26OCT29-B79.5",
+        "bracket": "79\u201380\u00b0",
+        "bid": 0.5,
+        "ask": 0.58,
+        "model": 0.1871,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSDF-26OCT29-B81.5",
+        "bracket": "81\u201382\u00b0",
+        "bid": 0.03,
+        "ask": 0.06,
+        "model": 0.0341,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSDF-26OCT29-B83.5",
+        "bracket": "83\u201384\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0094,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSDF-26OCT29-T84",
+        "bracket": "\u226585\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0054,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTDC-26OCT28",
+    "station": "KDCA",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 50.74,
+    "sigma": 2.24,
+    "lead_hours": 6.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTDC-26OCT28-T43",
+        "bracket": "\u226442\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0004,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDC-26OCT28-B43.5",
+        "bracket": "43\u201344\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0011,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDC-26OCT28-B45.5",
+        "bracket": "45\u201346\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0033,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDC-26OCT28-B47.5",
+        "bracket": "47\u201348\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0081,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDC-26OCT28-B49.5",
+        "bracket": "49\u201350\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.1695,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDC-26OCT28-T50",
+        "bracket": "\u226551\u00b0",
+        "bid": 0.98,
+        "ask": null,
+        "model": 0.8175,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTDC-26OCT29",
+    "station": "KDCA",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 49.45,
+    "sigma": 2.39,
+    "lead_hours": 13.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTDC-26OCT29-T44",
+        "bracket": "\u226443\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0141,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDC-26OCT29-B44.5",
+        "bracket": "44\u201345\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0257,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDC-26OCT29-B46.5",
+        "bracket": "46\u201347\u00b0",
+        "bid": 0.01,
+        "ask": 0.03,
+        "model": 0.1269,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDC-26OCT29-B48.5",
+        "bracket": "48\u201349\u00b0",
+        "bid": 0.02,
+        "ask": 0.17,
+        "model": 0.3437,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDC-26OCT29-B50.5",
+        "bracket": "50\u201351\u00b0",
+        "bid": 0.32,
+        "ask": 0.37,
+        "model": 0.3346,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTDC-26OCT29-T51",
+        "bracket": "\u226552\u00b0",
+        "bid": 0.42,
+        "ask": 0.54,
+        "model": 0.1551,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTTTN-26OCT28",
+    "station": "KTTN",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 39.82,
+    "sigma": 1.63,
+    "lead_hours": 6.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTTTN-26OCT28-T33",
+        "bracket": "\u226432\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTTTN-26OCT28-B33.5",
+        "bracket": "33\u201334\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTTTN-26OCT28-B35.5",
+        "bracket": "35\u201336\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTTTN-26OCT28-B37.5",
+        "bracket": "37\u201338\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0301,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTTTN-26OCT28-B39.5",
+        "bracket": "39\u201340\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.9699,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTTTN-26OCT28-T40",
+        "bracket": "\u226541\u00b0",
+        "bid": null,
+        "ask": 0.08,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTTTN-26OCT29",
+    "station": "KTTN",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 44.54,
+    "sigma": 2.14,
+    "lead_hours": 13.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTTTN-26OCT29-T38",
+        "bracket": "\u226437\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0058,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTTTN-26OCT29-B38.5",
+        "bracket": "38\u201339\u00b0",
+        "bid": 0.02,
+        "ask": 0.11,
+        "model": 0.0103,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTTTN-26OCT29-B40.5",
+        "bracket": "40\u201341\u00b0",
+        "bid": 0.15,
+        "ask": 0.26,
+        "model": 0.0414,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTTTN-26OCT29-B42.5",
+        "bracket": "42\u201343\u00b0",
+        "bid": 0.46,
+        "ask": 0.61,
+        "model": 0.2205,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTTTN-26OCT29-B44.5",
+        "bracket": "44\u201345\u00b0",
+        "bid": 0.09,
+        "ask": 0.21,
+        "model": 0.428,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTTTN-26OCT29-T45",
+        "bracket": "\u226546\u00b0",
+        "bid": 0.02,
+        "ask": 0.11,
+        "model": 0.2938,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTSATX-26OCT28",
+    "station": "KSAT",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 65.39,
+    "sigma": 1.66,
+    "lead_hours": 7.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTSATX-26OCT28-T58",
+        "bracket": "\u226457\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSATX-26OCT28-B58.5",
+        "bracket": "58\u201359\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSATX-26OCT28-B60.5",
+        "bracket": "60\u201361\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0002,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSATX-26OCT28-B62.5",
+        "bracket": "62\u201363\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0213,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSATX-26OCT28-B64.5",
+        "bracket": "64\u201365\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.4622,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSATX-26OCT28-T65",
+        "bracket": "\u226566\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.5162,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTSATX-26OCT29",
+    "station": "KSAT",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 67.83,
+    "sigma": 2.32,
+    "lead_hours": 27.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTSATX-26OCT29-T61",
+        "bracket": "\u226460\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0069,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSATX-26OCT29-B61.5",
+        "bracket": "61\u201362\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0105,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSATX-26OCT29-B63.5",
+        "bracket": "63\u201364\u00b0",
+        "bid": 0.02,
+        "ask": 0.11,
+        "model": 0.0393,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSATX-26OCT29-B65.5",
+        "bracket": "65\u201366\u00b0",
+        "bid": 0.05,
+        "ask": 0.2,
+        "model": 0.1888,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSATX-26OCT29-B67.5",
+        "bracket": "67\u201368\u00b0",
+        "bid": 0.52,
+        "ask": 0.66,
+        "model": 0.3911,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSATX-26OCT29-T68",
+        "bracket": "\u226569\u00b0",
+        "bid": 0.17,
+        "ask": 0.26,
+        "model": 0.3634,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTSAN-26OCT28",
+    "station": "KSAN",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 73.85,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTSAN-26OCT28-T71",
+        "bracket": "\u226470\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTSAN-26OCT28-B71.5",
+        "bracket": "71\u201372\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTSAN-26OCT28-B73.5",
+        "bracket": "73\u201374\u00b0",
+        "bid": 0.73,
+        "ask": 0.92,
+        "model": 0.8466,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSAN-26OCT28-B75.5",
+        "bracket": "75\u201376\u00b0",
+        "bid": 0.03,
+        "ask": 0.26,
+        "model": 0.1489,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSAN-26OCT28-B77.5",
+        "bracket": "77\u201378\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0043,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSAN-26OCT28-T78",
+        "bracket": "\u226579\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0002,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTSAN-26OCT29",
+    "station": "KSAN",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 72.83,
+    "sigma": 2.2,
+    "lead_hours": 23.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTSAN-26OCT29-T70",
+        "bracket": "\u226469\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0496,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSAN-26OCT29-B70.5",
+        "bracket": "70\u201371\u00b0",
+        "bid": 0.15,
+        "ask": 0.24,
+        "model": 0.1847,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSAN-26OCT29-B72.5",
+        "bracket": "72\u201373\u00b0",
+        "bid": 0.5,
+        "ask": 0.57,
+        "model": 0.4106,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSAN-26OCT29-B74.5",
+        "bracket": "74\u201375\u00b0",
+        "bid": 0.21,
+        "ask": 0.33,
+        "model": 0.2723,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSAN-26OCT29-B76.5",
+        "bracket": "76\u201377\u00b0",
+        "bid": 0.01,
+        "ask": 0.03,
+        "model": 0.0617,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSAN-26OCT29-T77",
+        "bracket": "\u226578\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.021,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTSEA-26OCT28",
+    "station": "KSEA",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 52.61,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTSEA-26OCT28-T51",
+        "bracket": "\u226450\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTSEA-26OCT28-B51.5",
+        "bracket": "51\u201352\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.5145,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSEA-26OCT28-B53.5",
+        "bracket": "53\u201354\u00b0",
+        "bid": 0.78,
+        "ask": 0.8,
+        "model": 0.4649,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSEA-26OCT28-B55.5",
+        "bracket": "55\u201356\u00b0",
+        "bid": 0.18,
+        "ask": 0.19,
+        "model": 0.0207,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSEA-26OCT28-B57.5",
+        "bracket": "57\u201358\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSEA-26OCT28-T58",
+        "bracket": "\u226559\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTSEA-26OCT29",
+    "station": "KSEA",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 51.72,
+    "sigma": 2.23,
+    "lead_hours": 24.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTSEA-26OCT29-T52",
+        "bracket": "\u226451\u00b0",
+        "bid": 0.04,
+        "ask": 0.05,
+        "model": 0.4514,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSEA-26OCT29-B52.5",
+        "bracket": "52\u201353\u00b0",
+        "bid": 0.24,
+        "ask": 0.28,
+        "model": 0.3763,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSEA-26OCT29-B54.5",
+        "bracket": "54\u201355\u00b0",
+        "bid": 0.49,
+        "ask": 0.5,
+        "model": 0.1348,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSEA-26OCT29-B56.5",
+        "bracket": "56\u201357\u00b0",
+        "bid": 0.16,
+        "ask": 0.17,
+        "model": 0.0247,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSEA-26OCT29-B58.5",
+        "bracket": "58\u201359\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.008,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTSEA-26OCT29-T59",
+        "bracket": "\u226560\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0047,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTLAX-26OCT28",
+    "station": "KLAX",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 59.27,
+    "sigma": 3.88,
+    "lead_hours": 9.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTLAX-26OCT28-T51",
+        "bracket": "\u226450\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0079,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLAX-26OCT28-B51.5",
+        "bracket": "51\u201352\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0058,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLAX-26OCT28-B53.5",
+        "bracket": "53\u201354\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0108,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLAX-26OCT28-B55.5",
+        "bracket": "55\u201356\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0274,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLAX-26OCT28-B57.5",
+        "bracket": "57\u201358\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.1018,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLAX-26OCT28-T58",
+        "bracket": "\u226559\u00b0",
+        "bid": 0.98,
+        "ask": 0.99,
+        "model": 0.8463,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTLAX-26OCT29",
+    "station": "KLAX",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 59.74,
+    "sigma": 2.83,
+    "lead_hours": 16.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTLAX-26OCT29-T53",
+        "bracket": "\u226452\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0131,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLAX-26OCT29-B53.5",
+        "bracket": "53\u201354\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0167,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLAX-26OCT29-B55.5",
+        "bracket": "55\u201356\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0642,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLAX-26OCT29-B57.5",
+        "bracket": "57\u201358\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.2045,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLAX-26OCT29-B59.5",
+        "bracket": "59\u201360\u00b0",
+        "bid": 0.08,
+        "ask": 0.15,
+        "model": 0.33,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLAX-26OCT29-T60",
+        "bracket": "\u226561\u00b0",
+        "bid": 0.83,
+        "ask": 0.88,
+        "model": 0.3716,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHPHIL-26OCT28",
+    "station": "KPHL",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 67.6,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHPHIL-26OCT28-T65",
+        "bracket": "\u226464\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHPHIL-26OCT28-B65.5",
+        "bracket": "65\u201366\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHPHIL-26OCT28-B67.5",
+        "bracket": "67\u201368\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.8995,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHPHIL-26OCT28-B69.5",
+        "bracket": "69\u201370\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.1005,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHPHIL-26OCT28-B71.5",
+        "bracket": "71\u201372\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHPHIL-26OCT28-T72",
+        "bracket": "\u226573\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHPHIL-26OCT29",
+    "station": "KPHL",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 69.23,
+    "sigma": 2.13,
+    "lead_hours": 21.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHPHIL-26OCT29-T69",
+        "bracket": "\u226468\u00b0",
+        "bid": 0.01,
+        "ask": 0.03,
+        "model": 0.3399,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHPHIL-26OCT29-B69.5",
+        "bracket": "69\u201370\u00b0",
+        "bid": 0.51,
+        "ask": 0.52,
+        "model": 0.4238,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHPHIL-26OCT29-B71.5",
+        "bracket": "71\u201372\u00b0",
+        "bid": 0.41,
+        "ask": 0.43,
+        "model": 0.1885,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHPHIL-26OCT29-B73.5",
+        "bracket": "73\u201374\u00b0",
+        "bid": 0.05,
+        "ask": 0.06,
+        "model": 0.0335,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHPHIL-26OCT29-B75.5",
+        "bracket": "75\u201376\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0092,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHPHIL-26OCT29-T76",
+        "bracket": "\u226577\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0051,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTMIA-26OCT28",
+    "station": "KMIA",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 74.29,
+    "sigma": 1.63,
+    "lead_hours": 6.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTMIA-26OCT28-T69",
+        "bracket": "\u226468\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0007,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIA-26OCT28-B69.5",
+        "bracket": "69\u201370\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0032,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIA-26OCT28-B71.5",
+        "bracket": "71\u201372\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0313,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIA-26OCT28-B73.5",
+        "bracket": "73\u201374\u00b0",
+        "bid": 0.01,
+        "ask": 0.03,
+        "model": 0.4915,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIA-26OCT28-B75.5",
+        "bracket": "75\u201376\u00b0",
+        "bid": 0.94,
+        "ask": 0.99,
+        "model": 0.4733,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIA-26OCT28-T76",
+        "bracket": "\u226577\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTMIA-26OCT29",
+    "station": "KMIA",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 73.91,
+    "sigma": 1.86,
+    "lead_hours": 13.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTMIA-26OCT29-T70",
+        "bracket": "\u226469\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.016,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIA-26OCT29-B70.5",
+        "bracket": "70\u201371\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.056,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIA-26OCT29-B72.5",
+        "bracket": "72\u201373\u00b0",
+        "bid": 0.01,
+        "ask": 0.06,
+        "model": 0.3215,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIA-26OCT29-B74.5",
+        "bracket": "74\u201375\u00b0",
+        "bid": 0.41,
+        "ask": 0.5,
+        "model": 0.4492,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIA-26OCT29-B76.5",
+        "bracket": "76\u201377\u00b0",
+        "bid": 0.42,
+        "ask": 0.56,
+        "model": 0.1302,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTMIA-26OCT29-T77",
+        "bracket": "\u226578\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0271,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTAUS-26OCT28",
+    "station": "KAUS",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 59.82,
+    "sigma": 1.66,
+    "lead_hours": 7.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTAUS-26OCT28-T56",
+        "bracket": "\u226455\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTAUS-26OCT28-B56.5",
+        "bracket": "56\u201357\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTAUS-26OCT28-B58.5",
+        "bracket": "58\u201359\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.1501,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTAUS-26OCT28-B60.5",
+        "bracket": "60\u201361\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.8499,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTAUS-26OCT28-B62.5",
+        "bracket": "62\u201363\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXLOWTAUS-26OCT28-T63",
+        "bracket": "\u226564\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTAUS-26OCT29",
+    "station": "KAUS",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 66.72,
+    "sigma": 1.93,
+    "lead_hours": 15.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTAUS-26OCT29-T61",
+        "bracket": "\u226460\u00b0",
+        "bid": 0.02,
+        "ask": 0.05,
+        "model": 0.0064,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTAUS-26OCT29-B61.5",
+        "bracket": "61\u201362\u00b0",
+        "bid": 0.09,
+        "ask": 0.17,
+        "model": 0.0133,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTAUS-26OCT29-B63.5",
+        "bracket": "63\u201364\u00b0",
+        "bid": 0.16,
+        "ask": 0.29,
+        "model": 0.0738,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTAUS-26OCT29-B65.5",
+        "bracket": "65\u201366\u00b0",
+        "bid": 0.42,
+        "ask": 0.56,
+        "model": 0.3524,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTAUS-26OCT29-B67.5",
+        "bracket": "67\u201368\u00b0",
+        "bid": 0.09,
+        "ask": 0.18,
+        "model": 0.4155,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTAUS-26OCT29-T68",
+        "bracket": "\u226569\u00b0",
+        "bid": 0.01,
+        "ask": 0.03,
+        "model": 0.1386,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTBOS-26OCT28",
+    "station": "KBOS",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 36.4,
+    "sigma": 1.63,
+    "lead_hours": 6.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTBOS-26OCT28-T33",
+        "bracket": "\u226432\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTBOS-26OCT28-B33.5",
+        "bracket": "33\u201334\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.02,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTBOS-26OCT28-B35.5",
+        "bracket": "35\u201336\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.46,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTBOS-26OCT28-B37.5",
+        "bracket": "37\u201338\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.52,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTBOS-26OCT28-B39.5",
+        "bracket": "39\u201340\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXLOWTBOS-26OCT28-T40",
+        "bracket": "\u226541\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTBOS-26OCT29",
+    "station": "KBOS",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 45.38,
+    "sigma": 1.76,
+    "lead_hours": 10.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTBOS-26OCT29-T41",
+        "bracket": "\u226440\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0105,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTBOS-26OCT29-B41.5",
+        "bracket": "41\u201342\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0305,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTBOS-26OCT29-B43.5",
+        "bracket": "43\u201344\u00b0",
+        "bid": 0.07,
+        "ask": 0.2,
+        "model": 0.2324,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTBOS-26OCT29-B45.5",
+        "bracket": "45\u201346\u00b0",
+        "bid": 0.37,
+        "ask": 0.53,
+        "model": 0.503,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTBOS-26OCT29-B47.5",
+        "bracket": "47\u201348\u00b0",
+        "bid": 0.25,
+        "ask": 0.42,
+        "model": 0.1901,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTBOS-26OCT29-T48",
+        "bracket": "\u226549\u00b0",
+        "bid": 0.06,
+        "ask": 0.17,
+        "model": 0.0335,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHNY-26OCT28",
+    "station": "KNYC",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 61.61,
+    "sigma": 1.21,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": false,
+    "notes": [
+      "observations stale (134 min)"
+    ],
+    "markets": [
+      {
+        "ticker": "KXHIGHNY-26OCT28-T60",
+        "bracket": "\u226459\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHNY-26OCT28-B60.5",
+        "bracket": "60\u201361\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.5141,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHNY-26OCT28-B62.5",
+        "bracket": "62\u201363\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.4644,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHNY-26OCT28-B64.5",
+        "bracket": "64\u201365\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0214,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHNY-26OCT28-B66.5",
+        "bracket": "66\u201367\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0001,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHNY-26OCT28-T67",
+        "bracket": "\u226568\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHNY-26OCT29",
+    "station": "KNYC",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 68.22,
+    "sigma": 2.16,
+    "lead_hours": 22.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHNY-26OCT29-T67",
+        "bracket": "\u226466\u00b0",
+        "bid": 0.28,
+        "ask": 0.29,
+        "model": 0.1732,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHNY-26OCT29-B67.5",
+        "bracket": "67\u201368\u00b0",
+        "bid": 0.57,
+        "ask": 0.58,
+        "model": 0.3902,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHNY-26OCT29-B69.5",
+        "bracket": "69\u201370\u00b0",
+        "bid": 0.16,
+        "ask": 0.17,
+        "model": 0.3264,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHNY-26OCT29-B71.5",
+        "bracket": "71\u201372\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.085,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHNY-26OCT29-B73.5",
+        "bracket": "73\u201374\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0161,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHNY-26OCT29-T74",
+        "bracket": "\u226575\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0091,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTSFO-26OCT28",
+    "station": "KSFO",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 50.32,
+    "sigma": 2.17,
+    "lead_hours": 9.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTSFO-26OCT28-T47",
+        "bracket": "\u226446\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.005,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSFO-26OCT28-B47.5",
+        "bracket": "47\u201348\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0286,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSFO-26OCT28-B49.5",
+        "bracket": "49\u201350\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.4696,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSFO-26OCT28-B51.5",
+        "bracket": "51\u201352\u00b0",
+        "bid": 0.98,
+        "ask": null,
+        "model": 0.4967,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSFO-26OCT28-B53.5",
+        "bracket": "53\u201354\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXLOWTSFO-26OCT28-T54",
+        "bracket": "\u226555\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTSFO-26OCT29",
+    "station": "KSFO",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 52.11,
+    "sigma": 1.9,
+    "lead_hours": 14.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTSFO-26OCT29-T48",
+        "bracket": "\u226447\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.015,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSFO-26OCT29-B48.5",
+        "bracket": "48\u201349\u00b0",
+        "bid": 0.01,
+        "ask": 0.03,
+        "model": 0.0474,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSFO-26OCT29-B50.5",
+        "bracket": "50\u201351\u00b0",
+        "bid": 0.03,
+        "ask": 0.06,
+        "model": 0.2849,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSFO-26OCT29-B52.5",
+        "bracket": "52\u201353\u00b0",
+        "bid": 0.58,
+        "ask": 0.66,
+        "model": 0.4608,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSFO-26OCT29-B54.5",
+        "bracket": "54\u201355\u00b0",
+        "bid": 0.21,
+        "ask": 0.29,
+        "model": 0.1593,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSFO-26OCT29-T55",
+        "bracket": "\u226556\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0327,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTDC-26OCT28",
+    "station": "KDCA",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 69.18,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTDC-26OCT28-T66",
+        "bracket": "\u226465\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTDC-26OCT28-B66.5",
+        "bracket": "66\u201367\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTDC-26OCT28-B68.5",
+        "bracket": "68\u201369\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.85,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDC-26OCT28-B70.5",
+        "bracket": "70\u201371\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.15,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDC-26OCT28-B72.5",
+        "bracket": "72\u201373\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDC-26OCT28-T73",
+        "bracket": "\u226574\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTDC-26OCT29",
+    "station": "KDCA",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 70.97,
+    "sigma": 2.16,
+    "lead_hours": 22.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTDC-26OCT29-T70",
+        "bracket": "\u226469\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.2082,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDC-26OCT29-B70.5",
+        "bracket": "70\u201371\u00b0",
+        "bid": 0.28,
+        "ask": 0.3,
+        "model": 0.4086,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDC-26OCT29-B72.5",
+        "bracket": "72\u201373\u00b0",
+        "bid": 0.61,
+        "ask": 0.62,
+        "model": 0.2932,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDC-26OCT29-B74.5",
+        "bracket": "74\u201375\u00b0",
+        "bid": 0.05,
+        "ask": 0.07,
+        "model": 0.0682,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDC-26OCT29-B76.5",
+        "bracket": "76\u201377\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0139,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTDC-26OCT29-T77",
+        "bracket": "\u226578\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.008,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTATL-26OCT28",
+    "station": "KATL",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 52.81,
+    "sigma": 1.63,
+    "lead_hours": 6.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTATL-26OCT28-T45",
+        "bracket": "\u226444\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTATL-26OCT28-B45.5",
+        "bracket": "45\u201346\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTATL-26OCT28-B47.5",
+        "bracket": "47\u201348\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0001,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTATL-26OCT28-B49.5",
+        "bracket": "49\u201350\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0009,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTATL-26OCT28-B51.5",
+        "bracket": "51\u201352\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.1535,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTATL-26OCT28-T52",
+        "bracket": "\u226553\u00b0",
+        "bid": 0.98,
+        "ask": null,
+        "model": 0.8455,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTATL-26OCT29",
+    "station": "KATL",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 54.13,
+    "sigma": 1.86,
+    "lead_hours": 13.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTATL-26OCT29-T49",
+        "bracket": "\u226448\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.008,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTATL-26OCT29-B49.5",
+        "bracket": "49\u201350\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0183,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTATL-26OCT29-B51.5",
+        "bracket": "51\u201352\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.1249,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTATL-26OCT29-B53.5",
+        "bracket": "53\u201354\u00b0",
+        "bid": 0.05,
+        "ask": 0.17,
+        "model": 0.4445,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTATL-26OCT29-B55.5",
+        "bracket": "55\u201356\u00b0",
+        "bid": 0.33,
+        "ask": 0.47,
+        "model": 0.3293,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTATL-26OCT29-T56",
+        "bracket": "\u226557\u00b0",
+        "bid": 0.35,
+        "ask": 0.53,
+        "model": 0.075,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTATL-26OCT28",
+    "station": "KATL",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 75.6,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTATL-26OCT28-T70",
+        "bracket": "\u226469\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTATL-26OCT28-B70.5",
+        "bracket": "70\u201371\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTATL-26OCT28-B72.5",
+        "bracket": "72\u201373\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTATL-26OCT28-B74.5",
+        "bracket": "74\u201375\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.52,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTATL-26OCT28-B76.5",
+        "bracket": "76\u201377\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.46,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTATL-26OCT28-T77",
+        "bracket": "\u226578\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.02,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTATL-26OCT29",
+    "station": "KATL",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 74.62,
+    "sigma": 2.16,
+    "lead_hours": 22.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTATL-26OCT29-T74",
+        "bracket": "\u226473\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.2659,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTATL-26OCT29-B74.5",
+        "bracket": "74\u201375\u00b0",
+        "bid": 0.43,
+        "ask": 0.44,
+        "model": 0.4221,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTATL-26OCT29-B76.5",
+        "bracket": "76\u201377\u00b0",
+        "bid": 0.49,
+        "ask": 0.53,
+        "model": 0.2441,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTATL-26OCT29-B78.5",
+        "bracket": "78\u201379\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.0496,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTATL-26OCT29-B80.5",
+        "bracket": "80\u201381\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0115,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTATL-26OCT29-T81",
+        "bracket": "\u226582\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0067,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHLAX-26OCT28",
+    "station": "KLAX",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 74.65,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHLAX-26OCT28-T69",
+        "bracket": "\u226468\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHLAX-26OCT28-B69.5",
+        "bracket": "69\u201370\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHLAX-26OCT28-B71.5",
+        "bracket": "71\u201372\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHLAX-26OCT28-B73.5",
+        "bracket": "73\u201374\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.4867,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHLAX-26OCT28-B75.5",
+        "bracket": "75\u201376\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.4887,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHLAX-26OCT28-T76",
+        "bracket": "\u226577\u00b0",
+        "bid": null,
+        "ask": 0.04,
+        "model": 0.0246,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHLAX-26OCT29",
+    "station": "KLAX",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 71.97,
+    "sigma": 2.2,
+    "lead_hours": 23.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHLAX-26OCT29-T68",
+        "bracket": "\u226467\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0235,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHLAX-26OCT29-B68.5",
+        "bracket": "68\u201369\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0741,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHLAX-26OCT29-B70.5",
+        "bracket": "70\u201371\u00b0",
+        "bid": 0.1,
+        "ask": 0.11,
+        "model": 0.3001,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHLAX-26OCT29-B72.5",
+        "bracket": "72\u201373\u00b0",
+        "bid": 0.47,
+        "ask": 0.48,
+        "model": 0.3997,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHLAX-26OCT29-B74.5",
+        "bracket": "74\u201375\u00b0",
+        "bid": 0.39,
+        "ask": 0.4,
+        "model": 0.1599,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHLAX-26OCT29-T75",
+        "bracket": "\u226576\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.0427,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTLV-26OCT28",
+    "station": "KLAS",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 58.6,
+    "sigma": 4.55,
+    "lead_hours": 9.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTLV-26OCT28-T51",
+        "bracket": "\u226450\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0179,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLV-26OCT28-B51.5",
+        "bracket": "51\u201352\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0128,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLV-26OCT28-B53.5",
+        "bracket": "53\u201354\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0303,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLV-26OCT28-B55.5",
+        "bracket": "55\u201356\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0713,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLV-26OCT28-B57.5",
+        "bracket": "57\u201358\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.1585,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLV-26OCT28-T58",
+        "bracket": "\u226559\u00b0",
+        "bid": 0.98,
+        "ask": 0.99,
+        "model": 0.7092,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTLV-26OCT29",
+    "station": "KLAS",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 56.17,
+    "sigma": 4.63,
+    "lead_hours": 16.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTLV-26OCT29-T52",
+        "bracket": "\u226451\u00b0",
+        "bid": null,
+        "ask": 0.1,
+        "model": 0.1196,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLV-26OCT29-B52.5",
+        "bracket": "52\u201353\u00b0",
+        "bid": null,
+        "ask": 0.1,
+        "model": 0.1244,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLV-26OCT29-B54.5",
+        "bracket": "54\u201355\u00b0",
+        "bid": 0.01,
+        "ask": 0.03,
+        "model": 0.186,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLV-26OCT29-B56.5",
+        "bracket": "56\u201357\u00b0",
+        "bid": 0.17,
+        "ask": 0.29,
+        "model": 0.2061,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLV-26OCT29-B58.5",
+        "bracket": "58\u201359\u00b0",
+        "bid": 0.35,
+        "ask": 0.51,
+        "model": 0.1683,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTLV-26OCT29-T59",
+        "bracket": "\u226560\u00b0",
+        "bid": 0.23,
+        "ask": 0.39,
+        "model": 0.1956,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTPHIL-26OCT28",
+    "station": "KPHL",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 45.8,
+    "sigma": 2.4,
+    "lead_hours": 6.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTPHIL-26OCT28-T38",
+        "bracket": "\u226437\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0001,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHIL-26OCT28-B38.5",
+        "bracket": "38\u201339\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0003,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHIL-26OCT28-B40.5",
+        "bracket": "40\u201341\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0009,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHIL-26OCT28-B42.5",
+        "bracket": "42\u201343\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0026,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHIL-26OCT28-B44.5",
+        "bracket": "44\u201345\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.1547,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHIL-26OCT28-T45",
+        "bracket": "\u226546\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.8414,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTPHIL-26OCT29",
+    "station": "KPHL",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 47.33,
+    "sigma": 1.97,
+    "lead_hours": 13.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTPHIL-26OCT29-T42",
+        "bracket": "\u226441\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0085,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHIL-26OCT29-B42.5",
+        "bracket": "42\u201343\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0178,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHIL-26OCT29-B44.5",
+        "bracket": "44\u201345\u00b0",
+        "bid": 0.01,
+        "ask": 0.03,
+        "model": 0.1112,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHIL-26OCT29-B46.5",
+        "bracket": "46\u201347\u00b0",
+        "bid": 0.13,
+        "ask": 0.21,
+        "model": 0.4052,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHIL-26OCT29-B48.5",
+        "bracket": "48\u201349\u00b0",
+        "bid": 0.34,
+        "ask": 0.4,
+        "model": 0.3564,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHIL-26OCT29-T49",
+        "bracket": "\u226550\u00b0",
+        "bid": 0.4,
+        "ask": 0.48,
+        "model": 0.1009,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTSAN-26OCT28",
+    "station": "KSAN",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 60.23,
+    "sigma": 2.97,
+    "lead_hours": 9.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTSAN-26OCT28-T53",
+        "bracket": "\u226452\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0028,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSAN-26OCT28-B53.5",
+        "bracket": "53\u201354\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0035,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSAN-26OCT28-B55.5",
+        "bracket": "55\u201356\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0068,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSAN-26OCT28-B57.5",
+        "bracket": "57\u201358\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0348,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSAN-26OCT28-B59.5",
+        "bracket": "59\u201360\u00b0",
+        "bid": 0.98,
+        "ask": 0.99,
+        "model": 0.4754,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSAN-26OCT28-T60",
+        "bracket": "\u226561\u00b0",
+        "bid": null,
+        "ask": 0.08,
+        "model": 0.4767,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTSAN-26OCT29",
+    "station": "KSAN",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 61.7,
+    "sigma": 2.47,
+    "lead_hours": 16.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTSAN-26OCT29-T55",
+        "bracket": "\u226454\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0089,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSAN-26OCT29-B55.5",
+        "bracket": "55\u201356\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0126,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSAN-26OCT29-B57.5",
+        "bracket": "57\u201358\u00b0",
+        "bid": 0.02,
+        "ask": 0.12,
+        "model": 0.0504,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSAN-26OCT29-B59.5",
+        "bracket": "59\u201360\u00b0",
+        "bid": 0.06,
+        "ask": 0.19,
+        "model": 0.2071,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSAN-26OCT29-B61.5",
+        "bracket": "61\u201362\u00b0",
+        "bid": 0.26,
+        "ask": 0.42,
+        "model": 0.3743,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSAN-26OCT29-T62",
+        "bracket": "\u226563\u00b0",
+        "bid": 0.39,
+        "ask": 0.57,
+        "model": 0.3467,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTHOU-26OCT28",
+    "station": "KHOU",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 82.6,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTHOU-26OCT28-T81",
+        "bracket": "\u226480\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTHOU-26OCT28-B81.5",
+        "bracket": "81\u201382\u00b0",
+        "bid": 0.6,
+        "ask": 0.7,
+        "model": 0.5169,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTHOU-26OCT28-B83.5",
+        "bracket": "83\u201384\u00b0",
+        "bid": 0.28,
+        "ask": 0.41,
+        "model": 0.4628,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTHOU-26OCT28-B85.5",
+        "bracket": "85\u201386\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0203,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTHOU-26OCT28-B87.5",
+        "bracket": "87\u201388\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTHOU-26OCT28-T88",
+        "bracket": "\u226589\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTHOU-26OCT29",
+    "station": "KHOU",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 81.27,
+    "sigma": 2.16,
+    "lead_hours": 22.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTHOU-26OCT29-T80",
+        "bracket": "\u226479\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.1655,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTHOU-26OCT29-B80.5",
+        "bracket": "80\u201381\u00b0",
+        "bid": 0.31,
+        "ask": 0.34,
+        "model": 0.3849,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTHOU-26OCT29-B82.5",
+        "bracket": "82\u201383\u00b0",
+        "bid": 0.59,
+        "ask": 0.6,
+        "model": 0.3341,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTHOU-26OCT29-B84.5",
+        "bracket": "84\u201385\u00b0",
+        "bid": 0.04,
+        "ask": 0.05,
+        "model": 0.0895,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTHOU-26OCT29-B86.5",
+        "bracket": "86\u201387\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0167,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTHOU-26OCT29-T87",
+        "bracket": "\u226588\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0093,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHDEN-26OCT28",
+    "station": "KDEN",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 66.63,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHDEN-26OCT28-T65",
+        "bracket": "\u226464\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHDEN-26OCT28-B65.5",
+        "bracket": "65\u201366\u00b0",
+        "bid": 0.86,
+        "ask": 0.89,
+        "model": 0.4997,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHDEN-26OCT28-B67.5",
+        "bracket": "67\u201368\u00b0",
+        "bid": 0.07,
+        "ask": 0.15,
+        "model": 0.4772,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHDEN-26OCT28-B69.5",
+        "bracket": "69\u201370\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.023,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHDEN-26OCT28-B71.5",
+        "bracket": "71\u201372\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0001,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHDEN-26OCT28-T72",
+        "bracket": "\u226573\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHDEN-26OCT29",
+    "station": "KDEN",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 63.88,
+    "sigma": 2.23,
+    "lead_hours": 24.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHDEN-26OCT29-T63",
+        "bracket": "\u226462\u00b0",
+        "bid": 0.03,
+        "ask": 0.04,
+        "model": 0.2297,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHDEN-26OCT29-B63.5",
+        "bracket": "63\u201364\u00b0",
+        "bid": 0.21,
+        "ask": 0.22,
+        "model": 0.4032,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHDEN-26OCT29-B65.5",
+        "bracket": "65\u201366\u00b0",
+        "bid": 0.52,
+        "ask": 0.53,
+        "model": 0.2782,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHDEN-26OCT29-B67.5",
+        "bracket": "67\u201368\u00b0",
+        "bid": 0.21,
+        "ask": 0.23,
+        "model": 0.0664,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHDEN-26OCT29-B69.5",
+        "bracket": "69\u201370\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.014,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHDEN-26OCT29-T70",
+        "bracket": "\u226571\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0084,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTOKC-26OCT28",
+    "station": "KOKC",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 58.82,
+    "sigma": 1.66,
+    "lead_hours": 7.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTOKC-26OCT28-T54",
+        "bracket": "\u226453\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTOKC-26OCT28-B54.5",
+        "bracket": "54\u201355\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTOKC-26OCT28-B56.5",
+        "bracket": "56\u201357\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0301,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTOKC-26OCT28-B58.5",
+        "bracket": "58\u201359\u00b0",
+        "bid": 0.99,
+        "ask": null,
+        "model": 0.9699,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTOKC-26OCT28-B60.5",
+        "bracket": "60\u201361\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXLOWTOKC-26OCT28-T61",
+        "bracket": "\u226562\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTOKC-26OCT29",
+    "station": "KOKC",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 62.96,
+    "sigma": 1.93,
+    "lead_hours": 15.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTOKC-26OCT29-T56",
+        "bracket": "\u226455\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0029,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTOKC-26OCT29-B56.5",
+        "bracket": "56\u201357\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.0069,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTOKC-26OCT29-B58.5",
+        "bracket": "58\u201359\u00b0",
+        "bid": 0.26,
+        "ask": 0.37,
+        "model": 0.0225,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTOKC-26OCT29-B60.5",
+        "bracket": "60\u201361\u00b0",
+        "bid": 0.29,
+        "ask": 0.43,
+        "model": 0.1513,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTOKC-26OCT29-B62.5",
+        "bracket": "62\u201363\u00b0",
+        "bid": 0.12,
+        "ask": 0.21,
+        "model": 0.4486,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTOKC-26OCT29-T63",
+        "bracket": "\u226564\u00b0",
+        "bid": 0.04,
+        "ask": 0.1,
+        "model": 0.3678,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTSEA-26OCT28",
+    "station": "KSEA",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 43.72,
+    "sigma": 1.73,
+    "lead_hours": 9.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTSEA-26OCT28-T38",
+        "bracket": "\u226437\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0035,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSEA-26OCT28-B38.5",
+        "bracket": "38\u201339\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0095,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSEA-26OCT28-B40.5",
+        "bracket": "40\u201341\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0463,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSEA-26OCT28-B42.5",
+        "bracket": "42\u201343\u00b0",
+        "bid": 0.23,
+        "ask": 0.33,
+        "model": 0.3333,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSEA-26OCT28-B44.5",
+        "bracket": "44\u201345\u00b0",
+        "bid": 0.56,
+        "ask": 0.58,
+        "model": 0.5328,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSEA-26OCT28-T45",
+        "bracket": "\u226546\u00b0",
+        "bid": 0.09,
+        "ask": 0.25,
+        "model": 0.0746,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTSEA-26OCT29",
+    "station": "KSEA",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 41.73,
+    "sigma": 2.0,
+    "lead_hours": 17.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTSEA-26OCT29-T34",
+        "bracket": "\u226433\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0021,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSEA-26OCT29-B34.5",
+        "bracket": "34\u201335\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0051,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSEA-26OCT29-B36.5",
+        "bracket": "36\u201337\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0141,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSEA-26OCT29-B38.5",
+        "bracket": "38\u201339\u00b0",
+        "bid": 0.02,
+        "ask": 0.06,
+        "model": 0.0775,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSEA-26OCT29-B40.5",
+        "bracket": "40\u201341\u00b0",
+        "bid": 0.16,
+        "ask": 0.28,
+        "model": 0.3453,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTSEA-26OCT29-T41",
+        "bracket": "\u226542\u00b0",
+        "bid": 0.68,
+        "ask": 0.78,
+        "model": 0.556,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTBOS-26OCT28",
+    "station": "KBOS",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 52.63,
+    "sigma": 0.94,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTBOS-26OCT28-T54",
+        "bracket": "\u226453\u00b0",
+        "bid": 0.97,
+        "ask": 0.99,
+        "model": 0.8919,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTBOS-26OCT28-B54.5",
+        "bracket": "54\u201355\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.1076,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTBOS-26OCT28-B56.5",
+        "bracket": "56\u201357\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0005,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTBOS-26OCT28-B58.5",
+        "bracket": "58\u201359\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTBOS-26OCT28-B60.5",
+        "bracket": "60\u201361\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTBOS-26OCT28-T61",
+        "bracket": "\u226562\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTBOS-26OCT29",
+    "station": "KBOS",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 66.97,
+    "sigma": 2.13,
+    "lead_hours": 21.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTBOS-26OCT29-T63",
+        "bracket": "\u226462\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.0218,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTBOS-26OCT29-B63.5",
+        "bracket": "63\u201364\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0698,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTBOS-26OCT29-B65.5",
+        "bracket": "65\u201366\u00b0",
+        "bid": 0.05,
+        "ask": 0.08,
+        "model": 0.3027,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTBOS-26OCT29-B67.5",
+        "bracket": "67\u201368\u00b0",
+        "bid": 0.24,
+        "ask": 0.25,
+        "model": 0.4099,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTBOS-26OCT29-B69.5",
+        "bracket": "69\u201370\u00b0",
+        "bid": 0.57,
+        "ask": 0.58,
+        "model": 0.1563,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTBOS-26OCT29-T70",
+        "bracket": "\u226571\u00b0",
+        "bid": 0.08,
+        "ask": 0.09,
+        "model": 0.0395,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTPHX-26OCT28",
+    "station": "KPHX",
+    "day": "2026-10-28",
+    "kind": "low",
+    "error": null,
+    "mu": 62.39,
+    "sigma": 4.28,
+    "lead_hours": 8.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTPHX-26OCT28-T54",
+        "bracket": "\u226453\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0079,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHX-26OCT28-B54.5",
+        "bracket": "54\u201355\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0051,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHX-26OCT28-B56.5",
+        "bracket": "56\u201357\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0088,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHX-26OCT28-B58.5",
+        "bracket": "58\u201359\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0194,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHX-26OCT28-B60.5",
+        "bracket": "60\u201361\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.0772,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHX-26OCT28-T61",
+        "bracket": "\u226562\u00b0",
+        "bid": 0.98,
+        "ask": 0.99,
+        "model": 0.8816,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXLOWTPHX-26OCT29",
+    "station": "KPHX",
+    "day": "2026-10-29",
+    "kind": "low",
+    "error": null,
+    "mu": 60.0,
+    "sigma": 4.59,
+    "lead_hours": 16.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXLOWTPHX-26OCT29-T57",
+        "bracket": "\u226456\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.1825,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHX-26OCT29-B57.5",
+        "bracket": "57\u201358\u00b0",
+        "bid": 0.01,
+        "ask": 0.02,
+        "model": 0.164,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHX-26OCT29-B59.5",
+        "bracket": "59\u201360\u00b0",
+        "bid": 0.02,
+        "ask": 0.06,
+        "model": 0.2066,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHX-26OCT29-B61.5",
+        "bracket": "61\u201362\u00b0",
+        "bid": 0.1,
+        "ask": 0.19,
+        "model": 0.1911,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHX-26OCT29-B63.5",
+        "bracket": "63\u201364\u00b0",
+        "bid": 0.37,
+        "ask": 0.46,
+        "model": 0.1302,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXLOWTPHX-26OCT29-T64",
+        "bracket": "\u226565\u00b0",
+        "bid": 0.28,
+        "ask": 0.35,
+        "model": 0.1256,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTNOLA-26OCT28",
+    "station": "KMSY",
+    "day": "2026-10-28",
+    "kind": "high",
+    "error": null,
+    "mu": 81.6,
+    "sigma": 1.1,
+    "lead_hours": 0.9,
+    "phase": "live",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTNOLA-26OCT28-T78",
+        "bracket": "\u226477\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTNOLA-26OCT28-B78.5",
+        "bracket": "78\u201379\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": "ruled out by observations"
+      },
+      {
+        "ticker": "KXHIGHTNOLA-26OCT28-B80.5",
+        "bracket": "80\u201381\u00b0",
+        "bid": 0.96,
+        "ask": 0.99,
+        "model": 0.5177,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTNOLA-26OCT28-B82.5",
+        "bracket": "82\u201383\u00b0",
+        "bid": null,
+        "ask": 0.02,
+        "model": 0.462,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTNOLA-26OCT28-B84.5",
+        "bracket": "84\u201385\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0203,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTNOLA-26OCT28-T85",
+        "bracket": "\u226586\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  },
+  {
+    "event": "KXHIGHTNOLA-26OCT29",
+    "station": "KMSY",
+    "day": "2026-10-29",
+    "kind": "high",
+    "error": null,
+    "mu": 78.35,
+    "sigma": 2.2,
+    "lead_hours": 23.9,
+    "phase": "pre",
+    "tradeable": true,
+    "notes": [],
+    "markets": [
+      {
+        "ticker": "KXHIGHTNOLA-26OCT29-T78",
+        "bracket": "\u226477\u00b0",
+        "bid": 0.02,
+        "ask": 0.03,
+        "model": 0.3198,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTNOLA-26OCT29-B78.5",
+        "bracket": "78\u201379\u00b0",
+        "bid": 0.43,
+        "ask": 0.46,
+        "model": 0.416,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTNOLA-26OCT29-B80.5",
+        "bracket": "80\u201381\u00b0",
+        "bid": 0.49,
+        "ask": 0.5,
+        "model": 0.2075,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTNOLA-26OCT29-B82.5",
+        "bracket": "82\u201383\u00b0",
+        "bid": 0.03,
+        "ask": 0.04,
+        "model": 0.0402,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTNOLA-26OCT29-B84.5",
+        "bracket": "84\u201385\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0103,
+        "signal": null,
+        "skip": null
+      },
+      {
+        "ticker": "KXHIGHTNOLA-26OCT29-T85",
+        "bracket": "\u226586\u00b0",
+        "bid": null,
+        "ask": 0.01,
+        "model": 0.0061,
+        "signal": null,
+        "skip": null
+      }
+    ]
+  }
+]
