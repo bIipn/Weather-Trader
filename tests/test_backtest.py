@@ -38,7 +38,7 @@ class SyntheticSession:
         if "/events/" in url and url.endswith("/candlesticks"):
             tickers = [m["ticker"] for m in self._markets()]
             candles = [{"end_period_ts": ts, "yes_bid": {"close_dollars": "0.2000"}, "yes_ask": {"close_dollars": "0.2400"}}
-                       for ts in range(int(p["start_ts"]), int(p["end_ts"]) + 1, 3600)]
+                       for ts in range(int(p["start_ts"]), int(p["end_ts"]) + 1, 60 * int(p.get("period_interval", 60)))]
             return FakeResponse({"market_tickers": tickers, "market_candlesticks": [candles] * len(tickers)})
         if "previous-runs" in url:
             return FakeResponse(self._previous_runs(p))

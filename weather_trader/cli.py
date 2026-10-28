@@ -164,7 +164,9 @@ def cmd_backtest(args, s: Settings) -> int:
     from .backtest import run_backtest, samples_json
     from .http import Http
 
-    with console.status("replaying markets…"):
+    if args.strategy == "sniper":
+        return _backtest_sniper(args, s)
+    with Console(stderr=True).status("replaying markets…"):
         res = run_backtest(Http(s.user_agent), s, args.series, args.days,
                            nowcast_hours=() if args.no_nowcast else (11, 14, 17, 20))
     summary = res.summary()
@@ -188,6 +190,31 @@ def cmd_backtest(args, s: Settings) -> int:
     console.print(Text("Brier score: lower is better. Model in green when it beat the market's own prices.",
                        style=DIM))
     for err in res.errors:
+        console.print(Text(f"! {err}", style=MUTED))
+    return 0
+
+
+def _backtest_sniper(args, s: Settings) -> int:
+    from .http import Http
+    from .sniper import run_sniper_backtest, snipes_json, summarize_snipes
+
+    with Console(stderr=True).status("replaying observations…"):
+        samples, errors = run_sniper_backtest(Http(s.user_agent), s, args.series, args.days)
+    summary = summarize_snipes(samples)
+    if args.json:
+        print(json.dumps({"summary": summary, "errors": errors, "samples": snipes_json(samples)}, default=str))
+        return 0
+    t = Table(title=Text("Dead-bracket sniping", style="bold"), title_justify="left", header_style=MUTED)
+    for col in ("Reaction time", "Stale bids found", "Profit per contract (sum)"):
+        t.add_column(col, justify="left" if col == "Reaction time" else "right")
+    for key, val in summary.items():
+        if key.startswith("after_"):
+            t.add_row(key.replace("after_", "").replace("min", " min after the report"), str(val["opportunities"]),
+                      money(val["profit_per_contract_sum"]))
+    console.print(t)
+    console.print(Text(f"{summary['dead_brackets']} brackets killed by observations; "
+                       f"{summary['violations']} of them settled YES anyway.", style=MUTED))
+    for err in errors:
         console.print(Text(f"! {err}", style=MUTED))
     return 0
 
@@ -239,6 +266,8 @@ def main(argv: list[str] | None = None) -> int:
     p = sub.add_parser("backtest", help="replay the strategy against historical Kalshi prices")
     p.add_argument("--series", nargs="*", default=MAIN_SERIES)
     p.add_argument("--days", type=int, default=45)
+    p.add_argument("--strategy", choices=["forecast", "sniper"], default="forecast",
+                   help="forecast = model vs market; sniper = sell brackets observations have ruled out")
     p.add_argument("--no-nowcast", action="store_true", help="skip the same-day (observation) replay")
     p.add_argument("--json", action="store_true", help="summary plus every replayed bracket")
     p.set_defaults(func=cmd_backtest)

@@ -83,7 +83,13 @@ jobs:
         run: |
           mkdir -p out
           wxbot -v backtest --days "$DAYS" --json > out/backtest.json
-          cat out/backtest.json
+          python -c "import json; print(json.dumps(json.load(open('out/backtest.json'))['summary'], indent=1))"
+      - name: Replay dead-bracket sniping on 1-minute prices
+        env:
+          DAYS: ${{ github.event.inputs.days || '45' }}
+        run: |
+          wxbot -v backtest --strategy sniper --days "$DAYS" --json > out/sniper.json
+          python -c "import json; print(json.dumps(json.load(open('out/sniper.json'))['summary'], indent=1))"
       - uses: actions/upload-artifact@v4
         with: { name: backtest, path: out/ }
 
